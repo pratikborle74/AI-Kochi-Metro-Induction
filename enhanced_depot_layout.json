@@ -1,0 +1,42 @@
+{
+    "IBL_Maintenance": [
+        "IBL-1",
+        "IBL-2",
+        "IBL-3",
+        "IBL-4",
+        "IBL-5"
+    ],
+    "Cleaning_Bays": [
+        "CB-1",
+        "CB-2",
+        "CB-3"
+    ],
+    "Standard_Stabling": [
+        "SB-1",
+        "SB-2",
+        "SB-3",
+        "SB-4",
+        "SB-5",
+        "SB-6",
+        "SB-7",
+        "SB-8",
+        "SB-9",
+        "SB-10",
+        "SB-11",
+        "SB-12",
+        "SB-13",
+        "SB-14",
+        "SB-15",
+        "SB-16",
+        "SB-17"
+    ],
+    "Standby_Ready": [
+        "RB-1",
+        "RB-2",
+        "RB-3",
+        "RB-4",
+        "RB-5",
+        "RB-6",
+        "RB-7"
+    ]
+}

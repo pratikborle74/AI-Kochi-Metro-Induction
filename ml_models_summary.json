@@ -1,0 +1,62 @@
+{
+    "training_timestamp": "2025-09-19 14:42:45",
+    "models_trained": {
+        "random_forest_failure_prediction": {
+            "model_file": "rf_failure_prediction_model.pkl",
+            "training_records": 25,
+            "top_features": [
+                {
+                    "Feature": "Brake_Pressure_Bar_mean",
+                    "Importance": 0.11141304047185713
+                },
+                {
+                    "Feature": "HVAC_Power_kW_mean",
+                    "Importance": 0.08437889449378898
+                },
+                {
+                    "Feature": "Motor_Temperature_C_mean",
+                    "Importance": 0.07659335329048843
+                },
+                {
+                    "Feature": "Health_Score_mean",
+                    "Importance": 0.07523467130722226
+                },
+                {
+                    "Feature": "Vibration_Level_max",
+                    "Importance": 0.07020028527985968
+                }
+            ]
+        },
+        "random_forest_optimization": {
+            "model_file": "rf_optimization_model.pkl",
+            "training_records": 25,
+            "top_features": [
+                {
+                    "Feature": "Average_Usage_Pct",
+                    "Importance": 0.33239196894316275
+                },
+                {
+                    "Feature": "Open_Jobs",
+                    "Importance": 0.1585512326354556
+                },
+                {
+                    "Feature": "Maintenance_Hours_Needed",
+                    "Importance": 0.13861041330758858
+                },
+                {
+                    "Feature": "Shunting_Time_Minutes",
+                    "Importance": 0.10311641179716598
+                },
+                {
+                    "Feature": "Accessibility_Score",
+                    "Importance": 0.09892583345046652
+                }
+            ]
+        },
+        "lstm_demand_forecasting": {
+            "model_file": "lstm_demand_model.h5",
+            "training_records": 24,
+            "sequence_length": 6
+        }
+    }
+}

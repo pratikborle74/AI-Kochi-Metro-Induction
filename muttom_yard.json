@@ -1,0 +1,47 @@
+{
+  "depotId": "MUTTOM_01",
+  "depotName": "Muttom Main Yard",
+  "totalCapacityTrainsets": 25,
+  "tracks": [
+    { "trackId": "SL-01", "type": "Stabling Line", "capacityCars": 6, "status": "OPERATIONAL", "connectedSwitches": ["SW-A"], "distance_metres": 200 },
+    { "trackId": "SL-02", "type": "Stabling Line", "capacityCars": 6, "status": "OPERATIONAL", "connectedSwitches": ["SW-A"], "distance_metres": 200 },
+    { "trackId": "SL-03", "type": "Stabling Line", "capacityCars": 6, "status": "OPERATIONAL", "connectedSwitches": ["SW-B"], "distance_metres": 220 },
+    { "trackId": "SL-04", "type": "Stabling Line", "capacityCars": 6, "status": "OPERATIONAL", "connectedSwitches": ["SW-B"], "distance_metres": 220 },
+    { "trackId": "SL-05", "type": "Stabling Line", "capacityCars": 6, "status": "OPERATIONAL", "connectedSwitches": ["SW-C"], "distance_metres": 250 },
+    { "trackId": "SL-06", "type": "Stabling Line", "capacityCars": 6, "status": "OPERATIONAL", "connectedSwitches": ["SW-C"], "distance_metres": 250 },
+    { "trackId": "SL-07", "type": "Stabling Line", "capacityCars": 6, "status": "OPERATIONAL", "connectedSwitches": ["SW-D"], "distance_metres": 270 },
+    { "trackId": "SL-08", "type": "Stabling Line", "capacityCars": 6, "status": "OPERATIONAL", "connectedSwitches": ["SW-D"], "distance_metres": 270 },
+    { "trackId": "SL-09", "type": "Stabling Line", "capacityCars": 6, "status": "OPERATIONAL", "connectedSwitches": ["SW-E"], "distance_metres": 300 },
+    { "trackId": "SL-10", "type": "Stabling Line", "capacityCars": 6, "status": "OPERATIONAL", "connectedSwitches": ["SW-E"], "distance_metres": 300 },
+    { "trackId": "SL-11", "type": "Stabling Line", "capacityCars": 6, "status": "OPERATIONAL", "connectedSwitches": ["SW-F"], "distance_metres": 320 },
+    { "trackId": "SL-12", "type": "Stabling Line", "capacityCars": 6, "status": "OPERATIONAL", "connectedSwitches": ["SW-F"], "distance_metres": 320 },
+    { "trackId": "SL-13", "type": "Stabling Line", "capacityCars": 6, "status": "OPERATIONAL", "connectedSwitches": ["SW-G"], "distance_metres": 350 },
+    { "trackId": "SL-14", "type": "Stabling Line", "capacityCars": 6, "status": "OPERATIONAL", "connectedSwitches": ["SW-G"], "distance_metres": 350 },
+    { "trackId": "SL-15", "type": "Stabling Line", "capacityCars": 6, "status": "UNDER_MAINTENANCE", "connectedSwitches": ["SW-H"], "distance_metres": 370 },
+    { "trackId": "IBL-01", "type": "Inspection Bay Line", "capacityCars": 3, "status": "OPERATIONAL", "connectedSwitches": ["SW-M"], "distance_metres": 100 },
+    { "trackId": "IBL-02", "type": "Inspection Bay Line", "capacityCars": 3, "status": "OPERATIONAL", "connectedSwitches": ["SW-M"], "distance_metres": 100 },
+    { "trackId": "IBL-03", "type": "Inspection Bay Line", "capacityCars": 3, "status": "OPERATIONAL", "connectedSwitches": ["SW-N"], "distance_metres": 120 },
+    { "trackId": "WB-01", "type": "Workshop Bay", "capacityCars": 3, "status": "OPERATIONAL", "connectedSwitches": ["SW-N"], "distance_metres": 120 },
+    { "trackId": "WB-02", "type": "Workshop Bay", "capacityCars": 3, "status": "OCCUPIED", "connectedSwitches": ["SW-P"], "distance_metres": 150 },
+    { "trackId": "WB-03", "type": "Workshop Bay", "capacityCars": 3, "status": "OPERATIONAL", "connectedSwitches": ["SW-P"], "distance_metres": 150 },
+    { "trackId": "WPL-01", "type": "Washing Plant Line", "capacityCars": 3, "status": "OPERATIONAL", "connectedSwitches": ["SW-Q"], "distance_metres": 80 },
+    { "trackId": "YARD_LINE_1", "type": "Yard Lead", "capacityCars": 3, "status": "OPERATIONAL", "connectedSwitches": ["SW-C", "SW-D", "SW-Q", "SW-LINK-1"], "distance_metres": 50 },
+    { "trackId": "MAINLINE_IN", "type": "Mainline Lead", "capacityCars": 6, "status": "OPERATIONAL", "connectedSwitches": ["SW-A", "SW-B", "SW-LINK-1"], "distance_metres": 100 }
+  ],
+  "switches": [
+    { "switchId": "SW-A", "connectsTracks": ["MAINLINE_IN", "SL-01", "SL-02"] },
+    { "switchId": "SW-B", "connectsTracks": ["MAINLINE_IN", "SL-03", "SL-04"] },
+    { "switchId": "SW-C", "connectsTracks": ["YARD_LINE_1", "SL-05", "SL-06"] },
+    { "switchId": "SW-D", "connectsTracks": ["YARD_LINE_1", "SL-07", "SL-08"] },
+    { "switchId": "SW-E", "connectsTracks": ["YARD_LINE_2", "SL-09", "SL-10"] },
+    { "switchId": "SW-F", "connectsTracks": ["YARD_LINE_2", "SL-11", "SL-12"] },
+    { "switchId": "SW-G", "connectsTracks": ["YARD_LINE_3", "SL-13", "SL-14"] },
+    { "switchId": "SW-H", "connectsTracks": ["YARD_LINE_3", "SL-15"] }, 
+    { "switchId": "SW-M", "connectsTracks": ["MAINTENANCE_LEAD", "IBL-01", "IBL-02"] },
+    { "switchId": "SW-N", "connectsTracks": ["MAINTENANCE_LEAD", "IBL-03", "WB-01"] },
+    { "switchId": "SW-P", "connectsTracks": ["WORKSHOP_LEAD", "WB-02", "WB-03"] },
+    { "switchId": "SW-Q", "connectsTracks": ["YARD_LINE_1", "WPL-01"] },
+    { "switchId": "SW-LINK-1", "connectsTracks": ["MAINLINE_IN", "YARD_LINE_1"] }
+  ]
+}
+

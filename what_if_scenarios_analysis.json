@@ -1,0 +1,2807 @@
+{
+    "scenarios": {
+        "baseline": {
+            "name": "Current Operations (Baseline)",
+            "description": "Current operational state with existing constraints",
+            "modifications": [],
+            "results": {
+                "timestamp": "2025-09-19 10:58:43",
+                "optimization_summary": {
+                    "total_trains": 25,
+                    "service_ready": 0,
+                    "maintenance_required": 22,
+                    "standby": 3
+                },
+                "ml_insights": {
+                    "failure_prediction_enabled": false,
+                    "optimization_model_enabled": true,
+                    "demand_forecasting_enabled": true,
+                    "high_risk_trains": 0,
+                    "ml_accuracy_note": "Models trained on current operational data"
+                },
+                "train_recommendations": [
+                    {
+                        "train_id": "CR102",
+                        "recommended_action": "Maintenance",
+                        "priority_score": 89.6,
+                        "ml_decision": "Service",
+                        "ml_confidence": 0.76,
+                        "failure_risk": 0.0,
+                        "reasoning": [
+                            "ML model suggests: Service (confidence: 0.76)",
+                            "\u26a0\ufe0f CONSTRAINT: 1 expired certificates"
+                        ]
+                    },
+                    {
+                        "train_id": "CR105",
+                        "recommended_action": "Maintenance",
+                        "priority_score": 87.7,
+                        "ml_decision": "Service",
+                        "ml_confidence": 0.81,
+                        "failure_risk": 0.0,
+                        "reasoning": [
+                            "ML model suggests: Service (confidence: 0.81)",
+                            "\u26a0\ufe0f CONSTRAINT: 1 expired certificates"
+                        ]
+                    },
+                    {
+                        "train_id": "CR108",
+                        "recommended_action": "Maintenance",
+                        "priority_score": 86.9,
+                        "ml_decision": "Service",
+                        "ml_confidence": 0.64,
+                        "failure_risk": 0.0,
+                        "reasoning": [
+                            "ML model suggests: Service (confidence: 0.64)",
+                            "\u26a0\ufe0f CONSTRAINT: 1 expired certificates"
+                        ]
+                    },
+                    {
+                        "train_id": "CR112",
+                        "recommended_action": "Maintenance",
+                        "priority_score": 82.7,
+                        "ml_decision": "Service",
+                        "ml_confidence": 0.76,
+                        "failure_risk": 0.0,
+                        "reasoning": [
+                            "ML model suggests: Service (confidence: 0.76)",
+                            "\u26a0\ufe0f CONSTRAINT: 1 expired certificates"
+                        ]
+                    },
+                    {
+                        "train_id": "CR115",
+                        "recommended_action": "Standby",
+                        "priority_score": 74.6,
+                        "ml_decision": "Standby",
+                        "ml_confidence": 0.95,
+                        "failure_risk": 0.0,
+                        "reasoning": [
+                            "ML model suggests: Standby (confidence: 0.95)"
+                        ]
+                    },
+                    {
+                        "train_id": "CR113",
+                        "recommended_action": "Standby",
+                        "priority_score": 69.5,
+                        "ml_decision": "Standby",
+                        "ml_confidence": 0.91,
+                        "failure_risk": 0.0,
+                        "reasoning": [
+                            "ML model suggests: Standby (confidence: 0.91)"
+                        ]
+                    },
+                    {
+                        "train_id": "CR114",
+                        "recommended_action": "Maintenance",
+                        "priority_score": 69.3,
+                        "ml_decision": "Standby",
+                        "ml_confidence": 0.89,
+                        "failure_risk": 0.0,
+                        "reasoning": [
+                            "ML model suggests: Standby (confidence: 0.89)",
+                            "\u26a0\ufe0f CONSTRAINT: 1 expired certificates"
+                        ]
+                    },
+                    {
+                        "train_id": "CR118",
+                        "recommended_action": "Maintenance",
+                        "priority_score": 68.7,
+                        "ml_decision": "Standby",
+                        "ml_confidence": 0.88,
+                        "failure_risk": 0.0,
+                        "reasoning": [
+                            "ML model suggests: Standby (confidence: 0.88)",
+                            "\u26a0\ufe0f CONSTRAINT: 1 expired certificates"
+                        ]
+                    },
+                    {
+                        "train_id": "CR101",
+                        "recommended_action": "Maintenance",
+                        "priority_score": 68.3,
+                        "ml_decision": "Standby",
+                        "ml_confidence": 0.9,
+                        "failure_risk": 0.0,
+                        "reasoning": [
+                            "ML model suggests: Standby (confidence: 0.90)",
+                            "\u26a0\ufe0f CONSTRAINT: 1 expired certificates"
+                        ]
+                    },
+                    {
+                        "train_id": "CR116",
+                        "recommended_action": "Standby",
+                        "priority_score": 66.3,
+                        "ml_decision": "Standby",
+                        "ml_confidence": 0.84,
+                        "failure_risk": 0.0,
+                        "reasoning": [
+                            "ML model suggests: Standby (confidence: 0.84)"
+                        ]
+                    },
+                    {
+                        "train_id": "CR110",
+                        "recommended_action": "Maintenance",
+                        "priority_score": 63.8,
+                        "ml_decision": "Maintenance",
+                        "ml_confidence": 0.83,
+                        "failure_risk": 0.0,
+                        "reasoning": [
+                            "ML model suggests: Maintenance (confidence: 0.83)",
+                            "\u26a0\ufe0f CONSTRAINT: 1 expired certificates"
+                        ]
+                    },
+                    {
+                        "train_id": "CR111",
+                        "recommended_action": "Maintenance",
+                        "priority_score": 63.1,
+                        "ml_decision": "Maintenance",
+                        "ml_confidence": 0.96,
+                        "failure_risk": 0.0,
+                        "reasoning": [
+                            "ML model suggests: Maintenance (confidence: 0.96)",
+                            "\u26a0\ufe0f CONSTRAINT: 2 expired certificates"
+                        ]
+                    },
+                    {
+                        "train_id": "CR121",
+                        "recommended_action": "Maintenance",
+                        "priority_score": 62.1,
+                        "ml_decision": "Standby",
+                        "ml_confidence": 0.73,
+                        "failure_risk": 0.0,
+                        "reasoning": [
+                            "ML model suggests: Standby (confidence: 0.73)",
+                            "\u26a0\ufe0f CONSTRAINT: 2 expired certificates"
+                        ]
+                    },
+                    {
+                        "train_id": "CR124",
+                        "recommended_action": "Maintenance",
+                        "priority_score": 61.8,
+                        "ml_decision": "Maintenance",
+                        "ml_confidence": 0.89,
+                        "failure_risk": 0.0,
+                        "reasoning": [
+                            "ML model suggests: Maintenance (confidence: 0.89)",
+                            "\u26a0\ufe0f CONSTRAINT: 2 expired certificates"
+                        ]
+                    },
+                    {
+                        "train_id": "CR109",
+                        "recommended_action": "Maintenance",
+                        "priority_score": 61.2,
+                        "ml_decision": "Maintenance",
+                        "ml_confidence": 0.69,
+                        "failure_risk": 0.0,
+                        "reasoning": [
+                            "ML model suggests: Maintenance (confidence: 0.69)",
+                            "\u26a0\ufe0f CONSTRAINT: 1 expired certificates"
+                        ]
+                    },
+                    {
+                        "train_id": "CR119",
+                        "recommended_action": "Maintenance",
+                        "priority_score": 60.7,
+                        "ml_decision": "Maintenance",
+                        "ml_confidence": 0.83,
+                        "failure_risk": 0.0,
+                        "reasoning": [
+                            "ML model suggests: Maintenance (confidence: 0.83)",
+                            "\u26a0\ufe0f CONSTRAINT: 1 expired certificates"
+                        ]
+                    },
+                    {
+                        "train_id": "CR117",
+                        "recommended_action": "Maintenance",
+                        "priority_score": 60.4,
+                        "ml_decision": "Maintenance",
+                        "ml_confidence": 0.96,
+                        "failure_risk": 0.0,
+                        "reasoning": [
+                            "ML model suggests: Maintenance (confidence: 0.96)",
+                            "\u26a0\ufe0f CONSTRAINT: 2 expired certificates"
+                        ]
+                    },
+                    {
+                        "train_id": "CR103",
+                        "recommended_action": "Maintenance",
+                        "priority_score": 60.4,
+                        "ml_decision": "Maintenance",
+                        "ml_confidence": 0.94,
+                        "failure_risk": 0.0,
+                        "reasoning": [
+                            "ML model suggests: Maintenance (confidence: 0.94)",
+                            "\u26a0\ufe0f CONSTRAINT: 1 expired certificates"
+                        ]
+                    },
+                    {
+                        "train_id": "CR107",
+                        "recommended_action": "Maintenance",
+                        "priority_score": 59.6,
+                        "ml_decision": "Maintenance",
+                        "ml_confidence": 0.88,
+                        "failure_risk": 0.0,
+                        "reasoning": [
+                            "ML model suggests: Maintenance (confidence: 0.88)",
+                            "\u26a0\ufe0f CONSTRAINT: 2 expired certificates"
+                        ]
+                    },
+                    {
+                        "train_id": "CR122",
+                        "recommended_action": "Maintenance",
+                        "priority_score": 58.4,
+                        "ml_decision": "Standby",
+                        "ml_confidence": 0.87,
+                        "failure_risk": 0.0,
+                        "reasoning": [
+                            "ML model suggests: Standby (confidence: 0.87)",
+                            "\u26a0\ufe0f CONSTRAINT: 3 expired certificates"
+                        ]
+                    },
+                    {
+                        "train_id": "CR106",
+                        "recommended_action": "Maintenance",
+                        "priority_score": 57.1,
+                        "ml_decision": "Standby",
+                        "ml_confidence": 0.87,
+                        "failure_risk": 0.0,
+                        "reasoning": [
+                            "ML model suggests: Standby (confidence: 0.87)",
+                            "\u26a0\ufe0f CONSTRAINT: 3 expired certificates"
+                        ]
+                    },
+                    {
+                        "train_id": "CR125",
+                        "recommended_action": "Maintenance",
+                        "priority_score": 56.6,
+                        "ml_decision": "Standby",
+                        "ml_confidence": 0.61,
+                        "failure_risk": 0.0,
+                        "reasoning": [
+                            "ML model suggests: Standby (confidence: 0.61)",
+                            "\u26a0\ufe0f CONSTRAINT: 2 expired certificates"
+                        ]
+                    },
+                    {
+                        "train_id": "CR120",
+                        "recommended_action": "Maintenance",
+                        "priority_score": 55.2,
+                        "ml_decision": "Standby",
+                        "ml_confidence": 0.73,
+                        "failure_risk": 0.0,
+                        "reasoning": [
+                            "ML model suggests: Standby (confidence: 0.73)",
+                            "\u26a0\ufe0f CONSTRAINT: 2 expired certificates"
+                        ]
+                    },
+                    {
+                        "train_id": "CR104",
+                        "recommended_action": "Maintenance",
+                        "priority_score": 51.3,
+                        "ml_decision": "Maintenance",
+                        "ml_confidence": 0.83,
+                        "failure_risk": 0.0,
+                        "reasoning": [
+                            "ML model suggests: Maintenance (confidence: 0.83)",
+                            "\u26a0\ufe0f CONSTRAINT: 3 expired certificates"
+                        ]
+                    },
+                    {
+                        "train_id": "CR123",
+                        "recommended_action": "Maintenance",
+                        "priority_score": 49.5,
+                        "ml_decision": "Standby",
+                        "ml_confidence": 0.71,
+                        "failure_risk": 0.0,
+                        "reasoning": [
+                            "ML model suggests: Standby (confidence: 0.71)",
+                            "\u26a0\ufe0f CONSTRAINT: 2 expired certificates"
+                        ]
+                    }
+                ],
+                "operational_alerts": [],
+                "demand_forecast": {
+                    "forecast_start_hour": 11,
+                    "predictions": [
+                        {
+                            "hour": 11,
+                            "demand_score": 25.941585540771484,
+                            "demand_level": "Low"
+                        },
+                        {
+                            "hour": 12,
+                            "demand_score": 26.029293060302734,
+                            "demand_level": "Low"
+                        },
+                        {
+                            "hour": 13,
+                            "demand_score": 26.065866470336914,
+                            "demand_level": "Low"
+                        },
+                        {
+                            "hour": 14,
+                            "demand_score": 26.098569869995117,
+                            "demand_level": "Low"
+                        },
+                        {
+                            "hour": 15,
+                            "demand_score": 26.129104614257812,
+                            "demand_level": "Low"
+                        },
+                        {
+                            "hour": 16,
+                            "demand_score": 26.149396896362305,
+                            "demand_level": "Low"
+                        },
+                        {
+                            "hour": 17,
+                            "demand_score": 26.155054092407227,
+                            "demand_level": "Low"
+                        },
+                        {
+                            "hour": 18,
+                            "demand_score": 26.154876708984375,
+                            "demand_level": "Low"
+                        },
+                        {
+                            "hour": 19,
+                            "demand_score": 26.154773712158203,
+                            "demand_level": "Low"
+                        },
+                        {
+                            "hour": 20,
+                            "demand_score": 26.154714584350586,
+                            "demand_level": "Low"
+                        },
+                        {
+                            "hour": 21,
+                            "demand_score": 26.154678344726562,
+                            "demand_level": "Low"
+                        },
+                        {
+                            "hour": 22,
+                            "demand_score": 26.1546688079834,
+                            "demand_level": "Low"
+                        },
+                        {
+                            "hour": 23,
+                            "demand_score": 26.1546688079834,
+                            "demand_level": "Low"
+                        },
+                        {
+                            "hour": 0,
+                            "demand_score": 26.15467071533203,
+                            "demand_level": "Low"
+                        },
+                        {
+                            "hour": 1,
+                            "demand_score": 26.1546688079834,
+                            "demand_level": "Low"
+                        },
+                        {
+                            "hour": 2,
+                            "demand_score": 26.1546688079834,
+                            "demand_level": "Low"
+                        },
+                        {
+                            "hour": 3,
+                            "demand_score": 26.15467071533203,
+                            "demand_level": "Low"
+                        },
+                        {
+                            "hour": 4,
+                            "demand_score": 26.1546688079834,
+                            "demand_level": "Low"
+                        },
+                        {
+                            "hour": 5,
+                            "demand_score": 26.1546688079834,
+                            "demand_level": "Low"
+                        },
+                        {
+                            "hour": 6,
+                            "demand_score": 26.15467071533203,
+                            "demand_level": "Low"
+                        },
+                        {
+                            "hour": 7,
+                            "demand_score": 26.1546688079834,
+                            "demand_level": "Low"
+                        },
+                        {
+                            "hour": 8,
+                            "demand_score": 26.1546688079834,
+                            "demand_level": "Low"
+                        },
+                        {
+                            "hour": 9,
+                            "demand_score": 26.15467071533203,
+                            "demand_level": "Low"
+                        },
+                        {
+                            "hour": 10,
+                            "demand_score": 26.1546688079834,
+                            "demand_level": "Low"
+                        }
+                    ]
+                }
+            }
+        },
+        "emergency_maintenance": {
+            "name": "Emergency Maintenance Crisis",
+            "description": "5 trains (CR123, CR122, CR103, CR102, CR104) suffer simultaneous electrical failures",
+            "modifications": [
+                "Emergency electrical failure: CR123",
+                "Emergency electrical failure: CR122",
+                "Emergency electrical failure: CR103",
+                "Emergency electrical failure: CR102",
+                "Emergency electrical failure: CR104"
+            ],
+            "results": {
+                "timestamp": "2025-09-19 10:58:45",
+                "optimization_summary": {
+                    "total_trains": 25,
+                    "service_ready": 0,
+                    "maintenance_required": 22,
+                    "standby": 3
+                },
+                "ml_insights": {
+                    "failure_prediction_enabled": false,
+                    "optimization_model_enabled": true,
+                    "demand_forecasting_enabled": true,
+                    "high_risk_trains": 0,
+                    "ml_accuracy_note": "Models trained on current operational data"
+                },
+                "train_recommendations": [
+                    {
+                        "train_id": "CR102",
+                        "recommended_action": "Maintenance",
+                        "priority_score": 89.6,
+                        "ml_decision": "Service",
+                        "ml_confidence": 0.76,
+                        "failure_risk": 0.0,
+                        "reasoning": [
+                            "ML model suggests: Service (confidence: 0.76)",
+                            "\u26a0\ufe0f CONSTRAINT: 1 expired certificates"
+                        ]
+                    },
+                    {
+                        "train_id": "CR105",
+                        "recommended_action": "Maintenance",
+                        "priority_score": 87.7,
+                        "ml_decision": "Service",
+                        "ml_confidence": 0.81,
+                        "failure_risk": 0.0,
+                        "reasoning": [
+                            "ML model suggests: Service (confidence: 0.81)",
+                            "\u26a0\ufe0f CONSTRAINT: 1 expired certificates"
+                        ]
+                    },
+                    {
+                        "train_id": "CR108",
+                        "recommended_action": "Maintenance",
+                        "priority_score": 86.9,
+                        "ml_decision": "Service",
+                        "ml_confidence": 0.64,
+                        "failure_risk": 0.0,
+                        "reasoning": [
+                            "ML model suggests: Service (confidence: 0.64)",
+                            "\u26a0\ufe0f CONSTRAINT: 1 expired certificates"
+                        ]
+                    },
+                    {
+                        "train_id": "CR112",
+                        "recommended_action": "Maintenance",
+                        "priority_score": 82.7,
+                        "ml_decision": "Service",
+                        "ml_confidence": 0.76,
+                        "failure_risk": 0.0,
+                        "reasoning": [
+                            "ML model suggests: Service (confidence: 0.76)",
+                            "\u26a0\ufe0f CONSTRAINT: 1 expired certificates"
+                        ]
+                    },
+                    {
+                        "train_id": "CR115",
+                        "recommended_action": "Standby",
+                        "priority_score": 74.6,
+                        "ml_decision": "Standby",
+                        "ml_confidence": 0.95,
+                        "failure_risk": 0.0,
+                        "reasoning": [
+                            "ML model suggests: Standby (confidence: 0.95)"
+                        ]
+                    },
+                    {
+                        "train_id": "CR113",
+                        "recommended_action": "Standby",
+                        "priority_score": 69.5,
+                        "ml_decision": "Standby",
+                        "ml_confidence": 0.91,
+                        "failure_risk": 0.0,
+                        "reasoning": [
+                            "ML model suggests: Standby (confidence: 0.91)"
+                        ]
+                    },
+                    {
+                        "train_id": "CR114",
+                        "recommended_action": "Maintenance",
+                        "priority_score": 69.3,
+                        "ml_decision": "Standby",
+                        "ml_confidence": 0.89,
+                        "failure_risk": 0.0,
+                        "reasoning": [
+                            "ML model suggests: Standby (confidence: 0.89)",
+                            "\u26a0\ufe0f CONSTRAINT: 1 expired certificates"
+                        ]
+                    },
+                    {
+                        "train_id": "CR118",
+                        "recommended_action": "Maintenance",
+                        "priority_score": 68.7,
+                        "ml_decision": "Standby",
+                        "ml_confidence": 0.88,
+                        "failure_risk": 0.0,
+                        "reasoning": [
+                            "ML model suggests: Standby (confidence: 0.88)",
+                            "\u26a0\ufe0f CONSTRAINT: 1 expired certificates"
+                        ]
+                    },
+                    {
+                        "train_id": "CR101",
+                        "recommended_action": "Maintenance",
+                        "priority_score": 68.3,
+                        "ml_decision": "Standby",
+                        "ml_confidence": 0.9,
+                        "failure_risk": 0.0,
+                        "reasoning": [
+                            "ML model suggests: Standby (confidence: 0.90)",
+                            "\u26a0\ufe0f CONSTRAINT: 1 expired certificates"
+                        ]
+                    },
+                    {
+                        "train_id": "CR116",
+                        "recommended_action": "Standby",
+                        "priority_score": 66.3,
+                        "ml_decision": "Standby",
+                        "ml_confidence": 0.84,
+                        "failure_risk": 0.0,
+                        "reasoning": [
+                            "ML model suggests: Standby (confidence: 0.84)"
+                        ]
+                    },
+                    {
+                        "train_id": "CR110",
+                        "recommended_action": "Maintenance",
+                        "priority_score": 63.8,
+                        "ml_decision": "Maintenance",
+                        "ml_confidence": 0.83,
+                        "failure_risk": 0.0,
+                        "reasoning": [
+                            "ML model suggests: Maintenance (confidence: 0.83)",
+                            "\u26a0\ufe0f CONSTRAINT: 1 expired certificates"
+                        ]
+                    },
+                    {
+                        "train_id": "CR111",
+                        "recommended_action": "Maintenance",
+                        "priority_score": 63.1,
+                        "ml_decision": "Maintenance",
+                        "ml_confidence": 0.96,
+                        "failure_risk": 0.0,
+                        "reasoning": [
+                            "ML model suggests: Maintenance (confidence: 0.96)",
+                            "\u26a0\ufe0f CONSTRAINT: 2 expired certificates"
+                        ]
+                    },
+                    {
+                        "train_id": "CR121",
+                        "recommended_action": "Maintenance",
+                        "priority_score": 62.1,
+                        "ml_decision": "Standby",
+                        "ml_confidence": 0.73,
+                        "failure_risk": 0.0,
+                        "reasoning": [
+                            "ML model suggests: Standby (confidence: 0.73)",
+                            "\u26a0\ufe0f CONSTRAINT: 2 expired certificates"
+                        ]
+                    },
+                    {
+                        "train_id": "CR124",
+                        "recommended_action": "Maintenance",
+                        "priority_score": 61.8,
+                        "ml_decision": "Maintenance",
+                        "ml_confidence": 0.89,
+                        "failure_risk": 0.0,
+                        "reasoning": [
+                            "ML model suggests: Maintenance (confidence: 0.89)",
+                            "\u26a0\ufe0f CONSTRAINT: 2 expired certificates"
+                        ]
+                    },
+                    {
+                        "train_id": "CR109",
+                        "recommended_action": "Maintenance",
+                        "priority_score": 61.2,
+                        "ml_decision": "Maintenance",
+                        "ml_confidence": 0.69,
+                        "failure_risk": 0.0,
+                        "reasoning": [
+                            "ML model suggests: Maintenance (confidence: 0.69)",
+                            "\u26a0\ufe0f CONSTRAINT: 1 expired certificates"
+                        ]
+                    },
+                    {
+                        "train_id": "CR119",
+                        "recommended_action": "Maintenance",
+                        "priority_score": 60.7,
+                        "ml_decision": "Maintenance",
+                        "ml_confidence": 0.83,
+                        "failure_risk": 0.0,
+                        "reasoning": [
+                            "ML model suggests: Maintenance (confidence: 0.83)",
+                            "\u26a0\ufe0f CONSTRAINT: 1 expired certificates"
+                        ]
+                    },
+                    {
+                        "train_id": "CR117",
+                        "recommended_action": "Maintenance",
+                        "priority_score": 60.4,
+                        "ml_decision": "Maintenance",
+                        "ml_confidence": 0.96,
+                        "failure_risk": 0.0,
+                        "reasoning": [
+                            "ML model suggests: Maintenance (confidence: 0.96)",
+                            "\u26a0\ufe0f CONSTRAINT: 2 expired certificates"
+                        ]
+                    },
+                    {
+                        "train_id": "CR103",
+                        "recommended_action": "Maintenance",
+                        "priority_score": 60.4,
+                        "ml_decision": "Maintenance",
+                        "ml_confidence": 0.94,
+                        "failure_risk": 0.0,
+                        "reasoning": [
+                            "ML model suggests: Maintenance (confidence: 0.94)",
+                            "\u26a0\ufe0f CONSTRAINT: 1 expired certificates"
+                        ]
+                    },
+                    {
+                        "train_id": "CR107",
+                        "recommended_action": "Maintenance",
+                        "priority_score": 59.6,
+                        "ml_decision": "Maintenance",
+                        "ml_confidence": 0.88,
+                        "failure_risk": 0.0,
+                        "reasoning": [
+                            "ML model suggests: Maintenance (confidence: 0.88)",
+                            "\u26a0\ufe0f CONSTRAINT: 2 expired certificates"
+                        ]
+                    },
+                    {
+                        "train_id": "CR122",
+                        "recommended_action": "Maintenance",
+                        "priority_score": 58.4,
+                        "ml_decision": "Standby",
+                        "ml_confidence": 0.87,
+                        "failure_risk": 0.0,
+                        "reasoning": [
+                            "ML model suggests: Standby (confidence: 0.87)",
+                            "\u26a0\ufe0f CONSTRAINT: 3 expired certificates"
+                        ]
+                    },
+                    {
+                        "train_id": "CR106",
+                        "recommended_action": "Maintenance",
+                        "priority_score": 57.1,
+                        "ml_decision": "Standby",
+                        "ml_confidence": 0.87,
+                        "failure_risk": 0.0,
+                        "reasoning": [
+                            "ML model suggests: Standby (confidence: 0.87)",
+                            "\u26a0\ufe0f CONSTRAINT: 3 expired certificates"
+                        ]
+                    },
+                    {
+                        "train_id": "CR125",
+                        "recommended_action": "Maintenance",
+                        "priority_score": 56.6,
+                        "ml_decision": "Standby",
+                        "ml_confidence": 0.61,
+                        "failure_risk": 0.0,
+                        "reasoning": [
+                            "ML model suggests: Standby (confidence: 0.61)",
+                            "\u26a0\ufe0f CONSTRAINT: 2 expired certificates"
+                        ]
+                    },
+                    {
+                        "train_id": "CR120",
+                        "recommended_action": "Maintenance",
+                        "priority_score": 55.2,
+                        "ml_decision": "Standby",
+                        "ml_confidence": 0.73,
+                        "failure_risk": 0.0,
+                        "reasoning": [
+                            "ML model suggests: Standby (confidence: 0.73)",
+                            "\u26a0\ufe0f CONSTRAINT: 2 expired certificates"
+                        ]
+                    },
+                    {
+                        "train_id": "CR104",
+                        "recommended_action": "Maintenance",
+                        "priority_score": 51.3,
+                        "ml_decision": "Maintenance",
+                        "ml_confidence": 0.83,
+                        "failure_risk": 0.0,
+                        "reasoning": [
+                            "ML model suggests: Maintenance (confidence: 0.83)",
+                            "\u26a0\ufe0f CONSTRAINT: 3 expired certificates"
+                        ]
+                    },
+                    {
+                        "train_id": "CR123",
+                        "recommended_action": "Maintenance",
+                        "priority_score": 49.5,
+                        "ml_decision": "Standby",
+                        "ml_confidence": 0.71,
+                        "failure_risk": 0.0,
+                        "reasoning": [
+                            "ML model suggests: Standby (confidence: 0.71)",
+                            "\u26a0\ufe0f CONSTRAINT: 2 expired certificates"
+                        ]
+                    }
+                ],
+                "operational_alerts": [],
+                "demand_forecast": {
+                    "forecast_start_hour": 11,
+                    "predictions": [
+                        {
+                            "hour": 11,
+                            "demand_score": 25.97118377685547,
+                            "demand_level": "Low"
+                        },
+                        {
+                            "hour": 12,
+                            "demand_score": 26.048913955688477,
+                            "demand_level": "Low"
+                        },
+                        {
+                            "hour": 13,
+                            "demand_score": 26.0821590423584,
+                            "demand_level": "Low"
+                        },
+                        {
+                            "hour": 14,
+                            "demand_score": 26.103286743164062,
+                            "demand_level": "Low"
+                        },
+                        {
+                            "hour": 15,
+                            "demand_score": 26.131031036376953,
+                            "demand_level": "Low"
+                        },
+                        {
+                            "hour": 16,
+                            "demand_score": 26.149770736694336,
+                            "demand_level": "Low"
+                        },
+                        {
+                            "hour": 17,
+                            "demand_score": 26.15500259399414,
+                            "demand_level": "Low"
+                        },
+                        {
+                            "hour": 18,
+                            "demand_score": 26.154850006103516,
+                            "demand_level": "Low"
+                        },
+                        {
+                            "hour": 19,
+                            "demand_score": 26.15475845336914,
+                            "demand_level": "Low"
+                        },
+                        {
+                            "hour": 20,
+                            "demand_score": 26.154708862304688,
+                            "demand_level": "Low"
+                        },
+                        {
+                            "hour": 21,
+                            "demand_score": 26.154678344726562,
+                            "demand_level": "Low"
+                        },
+                        {
+                            "hour": 22,
+                            "demand_score": 26.1546688079834,
+                            "demand_level": "Low"
+                        },
+                        {
+                            "hour": 23,
+                            "demand_score": 26.1546688079834,
+                            "demand_level": "Low"
+                        },
+                        {
+                            "hour": 0,
+                            "demand_score": 26.15467071533203,
+                            "demand_level": "Low"
+                        },
+                        {
+                            "hour": 1,
+                            "demand_score": 26.15467071533203,
+                            "demand_level": "Low"
+                        },
+                        {
+                            "hour": 2,
+                            "demand_score": 26.1546688079834,
+                            "demand_level": "Low"
+                        },
+                        {
+                            "hour": 3,
+                            "demand_score": 26.1546688079834,
+                            "demand_level": "Low"
+                        },
+                        {
+                            "hour": 4,
+                            "demand_score": 26.1546688079834,
+                            "demand_level": "Low"
+                        },
+                        {
+                            "hour": 5,
+                            "demand_score": 26.15467071533203,
+                            "demand_level": "Low"
+                        },
+                        {
+                            "hour": 6,
+                            "demand_score": 26.15467071533203,
+                            "demand_level": "Low"
+                        },
+                        {
+                            "hour": 7,
+                            "demand_score": 26.15467071533203,
+                            "demand_level": "Low"
+                        },
+                        {
+                            "hour": 8,
+                            "demand_score": 26.15467071533203,
+                            "demand_level": "Low"
+                        },
+                        {
+                            "hour": 9,
+                            "demand_score": 26.15467071533203,
+                            "demand_level": "Low"
+                        },
+                        {
+                            "hour": 10,
+                            "demand_score": 26.1546688079834,
+                            "demand_level": "Low"
+                        }
+                    ]
+                }
+            }
+        },
+        "branding_surge": {
+            "name": "Branding Contract Surge",
+            "description": "3 new high-value advertising contracts require immediate service commitment",
+            "modifications": [
+                "New branding contract: Kerala Tourism (CR120) - 18 hours required",
+                "New branding contract: Reliance Digital (CR125) - 16 hours required",
+                "New branding contract: BPCL (CR110) - 20 hours required",
+                "Total additional penalty risk: \u20b9144,000"
+            ],
+            "results": {
+                "timestamp": "2025-09-19 10:58:47",
+                "optimization_summary": {
+                    "total_trains": 25,
+                    "service_ready": 0,
+                    "maintenance_required": 22,
+                    "standby": 3
+                },
+                "ml_insights": {
+                    "failure_prediction_enabled": false,
+                    "optimization_model_enabled": true,
+                    "demand_forecasting_enabled": true,
+                    "high_risk_trains": 0,
+                    "ml_accuracy_note": "Models trained on current operational data"
+                },
+                "train_recommendations": [
+                    {
+                        "train_id": "CR102",
+                        "recommended_action": "Maintenance",
+                        "priority_score": 89.6,
+                        "ml_decision": "Service",
+                        "ml_confidence": 0.76,
+                        "failure_risk": 0.0,
+                        "reasoning": [
+                            "ML model suggests: Service (confidence: 0.76)",
+                            "\u26a0\ufe0f CONSTRAINT: 1 expired certificates"
+                        ]
+                    },
+                    {
+                        "train_id": "CR105",
+                        "recommended_action": "Maintenance",
+                        "priority_score": 87.7,
+                        "ml_decision": "Service",
+                        "ml_confidence": 0.81,
+                        "failure_risk": 0.0,
+                        "reasoning": [
+                            "ML model suggests: Service (confidence: 0.81)",
+                            "\u26a0\ufe0f CONSTRAINT: 1 expired certificates"
+                        ]
+                    },
+                    {
+                        "train_id": "CR108",
+                        "recommended_action": "Maintenance",
+                        "priority_score": 86.9,
+                        "ml_decision": "Service",
+                        "ml_confidence": 0.64,
+                        "failure_risk": 0.0,
+                        "reasoning": [
+                            "ML model suggests: Service (confidence: 0.64)",
+                            "\u26a0\ufe0f CONSTRAINT: 1 expired certificates"
+                        ]
+                    },
+                    {
+                        "train_id": "CR112",
+                        "recommended_action": "Maintenance",
+                        "priority_score": 82.7,
+                        "ml_decision": "Service",
+                        "ml_confidence": 0.76,
+                        "failure_risk": 0.0,
+                        "reasoning": [
+                            "ML model suggests: Service (confidence: 0.76)",
+                            "\u26a0\ufe0f CONSTRAINT: 1 expired certificates"
+                        ]
+                    },
+                    {
+                        "train_id": "CR115",
+                        "recommended_action": "Standby",
+                        "priority_score": 74.6,
+                        "ml_decision": "Standby",
+                        "ml_confidence": 0.95,
+                        "failure_risk": 0.0,
+                        "reasoning": [
+                            "ML model suggests: Standby (confidence: 0.95)"
+                        ]
+                    },
+                    {
+                        "train_id": "CR113",
+                        "recommended_action": "Standby",
+                        "priority_score": 69.5,
+                        "ml_decision": "Standby",
+                        "ml_confidence": 0.91,
+                        "failure_risk": 0.0,
+                        "reasoning": [
+                            "ML model suggests: Standby (confidence: 0.91)"
+                        ]
+                    },
+                    {
+                        "train_id": "CR114",
+                        "recommended_action": "Maintenance",
+                        "priority_score": 69.3,
+                        "ml_decision": "Standby",
+                        "ml_confidence": 0.89,
+                        "failure_risk": 0.0,
+                        "reasoning": [
+                            "ML model suggests: Standby (confidence: 0.89)",
+                            "\u26a0\ufe0f CONSTRAINT: 1 expired certificates"
+                        ]
+                    },
+                    {
+                        "train_id": "CR118",
+                        "recommended_action": "Maintenance",
+                        "priority_score": 68.7,
+                        "ml_decision": "Standby",
+                        "ml_confidence": 0.88,
+                        "failure_risk": 0.0,
+                        "reasoning": [
+                            "ML model suggests: Standby (confidence: 0.88)",
+                            "\u26a0\ufe0f CONSTRAINT: 1 expired certificates"
+                        ]
+                    },
+                    {
+                        "train_id": "CR101",
+                        "recommended_action": "Maintenance",
+                        "priority_score": 68.3,
+                        "ml_decision": "Standby",
+                        "ml_confidence": 0.9,
+                        "failure_risk": 0.0,
+                        "reasoning": [
+                            "ML model suggests: Standby (confidence: 0.90)",
+                            "\u26a0\ufe0f CONSTRAINT: 1 expired certificates"
+                        ]
+                    },
+                    {
+                        "train_id": "CR116",
+                        "recommended_action": "Standby",
+                        "priority_score": 66.3,
+                        "ml_decision": "Standby",
+                        "ml_confidence": 0.84,
+                        "failure_risk": 0.0,
+                        "reasoning": [
+                            "ML model suggests: Standby (confidence: 0.84)"
+                        ]
+                    },
+                    {
+                        "train_id": "CR110",
+                        "recommended_action": "Maintenance",
+                        "priority_score": 63.8,
+                        "ml_decision": "Maintenance",
+                        "ml_confidence": 0.83,
+                        "failure_risk": 0.0,
+                        "reasoning": [
+                            "ML model suggests: Maintenance (confidence: 0.83)",
+                            "\u26a0\ufe0f CONSTRAINT: 1 expired certificates"
+                        ]
+                    },
+                    {
+                        "train_id": "CR111",
+                        "recommended_action": "Maintenance",
+                        "priority_score": 63.1,
+                        "ml_decision": "Maintenance",
+                        "ml_confidence": 0.96,
+                        "failure_risk": 0.0,
+                        "reasoning": [
+                            "ML model suggests: Maintenance (confidence: 0.96)",
+                            "\u26a0\ufe0f CONSTRAINT: 2 expired certificates"
+                        ]
+                    },
+                    {
+                        "train_id": "CR121",
+                        "recommended_action": "Maintenance",
+                        "priority_score": 62.1,
+                        "ml_decision": "Standby",
+                        "ml_confidence": 0.73,
+                        "failure_risk": 0.0,
+                        "reasoning": [
+                            "ML model suggests: Standby (confidence: 0.73)",
+                            "\u26a0\ufe0f CONSTRAINT: 2 expired certificates"
+                        ]
+                    },
+                    {
+                        "train_id": "CR124",
+                        "recommended_action": "Maintenance",
+                        "priority_score": 61.8,
+                        "ml_decision": "Maintenance",
+                        "ml_confidence": 0.89,
+                        "failure_risk": 0.0,
+                        "reasoning": [
+                            "ML model suggests: Maintenance (confidence: 0.89)",
+                            "\u26a0\ufe0f CONSTRAINT: 2 expired certificates"
+                        ]
+                    },
+                    {
+                        "train_id": "CR109",
+                        "recommended_action": "Maintenance",
+                        "priority_score": 61.2,
+                        "ml_decision": "Maintenance",
+                        "ml_confidence": 0.69,
+                        "failure_risk": 0.0,
+                        "reasoning": [
+                            "ML model suggests: Maintenance (confidence: 0.69)",
+                            "\u26a0\ufe0f CONSTRAINT: 1 expired certificates"
+                        ]
+                    },
+                    {
+                        "train_id": "CR119",
+                        "recommended_action": "Maintenance",
+                        "priority_score": 60.7,
+                        "ml_decision": "Maintenance",
+                        "ml_confidence": 0.83,
+                        "failure_risk": 0.0,
+                        "reasoning": [
+                            "ML model suggests: Maintenance (confidence: 0.83)",
+                            "\u26a0\ufe0f CONSTRAINT: 1 expired certificates"
+                        ]
+                    },
+                    {
+                        "train_id": "CR117",
+                        "recommended_action": "Maintenance",
+                        "priority_score": 60.4,
+                        "ml_decision": "Maintenance",
+                        "ml_confidence": 0.96,
+                        "failure_risk": 0.0,
+                        "reasoning": [
+                            "ML model suggests: Maintenance (confidence: 0.96)",
+                            "\u26a0\ufe0f CONSTRAINT: 2 expired certificates"
+                        ]
+                    },
+                    {
+                        "train_id": "CR103",
+                        "recommended_action": "Maintenance",
+                        "priority_score": 60.4,
+                        "ml_decision": "Maintenance",
+                        "ml_confidence": 0.94,
+                        "failure_risk": 0.0,
+                        "reasoning": [
+                            "ML model suggests: Maintenance (confidence: 0.94)",
+                            "\u26a0\ufe0f CONSTRAINT: 1 expired certificates"
+                        ]
+                    },
+                    {
+                        "train_id": "CR107",
+                        "recommended_action": "Maintenance",
+                        "priority_score": 59.6,
+                        "ml_decision": "Maintenance",
+                        "ml_confidence": 0.88,
+                        "failure_risk": 0.0,
+                        "reasoning": [
+                            "ML model suggests: Maintenance (confidence: 0.88)",
+                            "\u26a0\ufe0f CONSTRAINT: 2 expired certificates"
+                        ]
+                    },
+                    {
+                        "train_id": "CR122",
+                        "recommended_action": "Maintenance",
+                        "priority_score": 58.4,
+                        "ml_decision": "Standby",
+                        "ml_confidence": 0.87,
+                        "failure_risk": 0.0,
+                        "reasoning": [
+                            "ML model suggests: Standby (confidence: 0.87)",
+                            "\u26a0\ufe0f CONSTRAINT: 3 expired certificates"
+                        ]
+                    },
+                    {
+                        "train_id": "CR106",
+                        "recommended_action": "Maintenance",
+                        "priority_score": 57.1,
+                        "ml_decision": "Standby",
+                        "ml_confidence": 0.87,
+                        "failure_risk": 0.0,
+                        "reasoning": [
+                            "ML model suggests: Standby (confidence: 0.87)",
+                            "\u26a0\ufe0f CONSTRAINT: 3 expired certificates"
+                        ]
+                    },
+                    {
+                        "train_id": "CR125",
+                        "recommended_action": "Maintenance",
+                        "priority_score": 56.6,
+                        "ml_decision": "Standby",
+                        "ml_confidence": 0.61,
+                        "failure_risk": 0.0,
+                        "reasoning": [
+                            "ML model suggests: Standby (confidence: 0.61)",
+                            "\u26a0\ufe0f CONSTRAINT: 2 expired certificates"
+                        ]
+                    },
+                    {
+                        "train_id": "CR120",
+                        "recommended_action": "Maintenance",
+                        "priority_score": 55.2,
+                        "ml_decision": "Standby",
+                        "ml_confidence": 0.73,
+                        "failure_risk": 0.0,
+                        "reasoning": [
+                            "ML model suggests: Standby (confidence: 0.73)",
+                            "\u26a0\ufe0f CONSTRAINT: 2 expired certificates"
+                        ]
+                    },
+                    {
+                        "train_id": "CR104",
+                        "recommended_action": "Maintenance",
+                        "priority_score": 51.3,
+                        "ml_decision": "Maintenance",
+                        "ml_confidence": 0.83,
+                        "failure_risk": 0.0,
+                        "reasoning": [
+                            "ML model suggests: Maintenance (confidence: 0.83)",
+                            "\u26a0\ufe0f CONSTRAINT: 3 expired certificates"
+                        ]
+                    },
+                    {
+                        "train_id": "CR123",
+                        "recommended_action": "Maintenance",
+                        "priority_score": 49.5,
+                        "ml_decision": "Standby",
+                        "ml_confidence": 0.71,
+                        "failure_risk": 0.0,
+                        "reasoning": [
+                            "ML model suggests: Standby (confidence: 0.71)",
+                            "\u26a0\ufe0f CONSTRAINT: 2 expired certificates"
+                        ]
+                    }
+                ],
+                "operational_alerts": [],
+                "demand_forecast": {
+                    "forecast_start_hour": 11,
+                    "predictions": [
+                        {
+                            "hour": 11,
+                            "demand_score": 25.95618438720703,
+                            "demand_level": "Low"
+                        },
+                        {
+                            "hour": 12,
+                            "demand_score": 26.043746948242188,
+                            "demand_level": "Low"
+                        },
+                        {
+                            "hour": 13,
+                            "demand_score": 26.0757999420166,
+                            "demand_level": "Low"
+                        },
+                        {
+                            "hour": 14,
+                            "demand_score": 26.098445892333984,
+                            "demand_level": "Low"
+                        },
+                        {
+                            "hour": 15,
+                            "demand_score": 26.129743576049805,
+                            "demand_level": "Low"
+                        },
+                        {
+                            "hour": 16,
+                            "demand_score": 26.149660110473633,
+                            "demand_level": "Low"
+                        },
+                        {
+                            "hour": 17,
+                            "demand_score": 26.155025482177734,
+                            "demand_level": "Low"
+                        },
+                        {
+                            "hour": 18,
+                            "demand_score": 26.154863357543945,
+                            "demand_level": "Low"
+                        },
+                        {
+                            "hour": 19,
+                            "demand_score": 26.154769897460938,
+                            "demand_level": "Low"
+                        },
+                        {
+                            "hour": 20,
+                            "demand_score": 26.154712677001953,
+                            "demand_level": "Low"
+                        },
+                        {
+                            "hour": 21,
+                            "demand_score": 26.154678344726562,
+                            "demand_level": "Low"
+                        },
+                        {
+                            "hour": 22,
+                            "demand_score": 26.15467071533203,
+                            "demand_level": "Low"
+                        },
+                        {
+                            "hour": 23,
+                            "demand_score": 26.1546688079834,
+                            "demand_level": "Low"
+                        },
+                        {
+                            "hour": 0,
+                            "demand_score": 26.1546688079834,
+                            "demand_level": "Low"
+                        },
+                        {
+                            "hour": 1,
+                            "demand_score": 26.1546688079834,
+                            "demand_level": "Low"
+                        },
+                        {
+                            "hour": 2,
+                            "demand_score": 26.1546688079834,
+                            "demand_level": "Low"
+                        },
+                        {
+                            "hour": 3,
+                            "demand_score": 26.1546688079834,
+                            "demand_level": "Low"
+                        },
+                        {
+                            "hour": 4,
+                            "demand_score": 26.15467071533203,
+                            "demand_level": "Low"
+                        },
+                        {
+                            "hour": 5,
+                            "demand_score": 26.1546688079834,
+                            "demand_level": "Low"
+                        },
+                        {
+                            "hour": 6,
+                            "demand_score": 26.1546688079834,
+                            "demand_level": "Low"
+                        },
+                        {
+                            "hour": 7,
+                            "demand_score": 26.15467071533203,
+                            "demand_level": "Low"
+                        },
+                        {
+                            "hour": 8,
+                            "demand_score": 26.1546688079834,
+                            "demand_level": "Low"
+                        },
+                        {
+                            "hour": 9,
+                            "demand_score": 26.1546688079834,
+                            "demand_level": "Low"
+                        },
+                        {
+                            "hour": 10,
+                            "demand_score": 26.15467071533203,
+                            "demand_level": "Low"
+                        }
+                    ]
+                }
+            }
+        },
+        "certificate_renewal": {
+            "name": "Mass Certificate Renewal",
+            "description": "All expired and pending certificates renewed - maximum fleet availability",
+            "modifications": [
+                "Renewed 36 expired certificates",
+                "Processed 7 pending certificates",
+                "All trains now have valid fitness certificates",
+                "Maximum service availability achieved"
+            ],
+            "results": {
+                "timestamp": "2025-09-19 10:58:50",
+                "optimization_summary": {
+                    "total_trains": 25,
+                    "service_ready": 0,
+                    "maintenance_required": 22,
+                    "standby": 3
+                },
+                "ml_insights": {
+                    "failure_prediction_enabled": false,
+                    "optimization_model_enabled": true,
+                    "demand_forecasting_enabled": true,
+                    "high_risk_trains": 0,
+                    "ml_accuracy_note": "Models trained on current operational data"
+                },
+                "train_recommendations": [
+                    {
+                        "train_id": "CR102",
+                        "recommended_action": "Maintenance",
+                        "priority_score": 89.6,
+                        "ml_decision": "Service",
+                        "ml_confidence": 0.76,
+                        "failure_risk": 0.0,
+                        "reasoning": [
+                            "ML model suggests: Service (confidence: 0.76)",
+                            "\u26a0\ufe0f CONSTRAINT: 1 expired certificates"
+                        ]
+                    },
+                    {
+                        "train_id": "CR105",
+                        "recommended_action": "Maintenance",
+                        "priority_score": 87.7,
+                        "ml_decision": "Service",
+                        "ml_confidence": 0.81,
+                        "failure_risk": 0.0,
+                        "reasoning": [
+                            "ML model suggests: Service (confidence: 0.81)",
+                            "\u26a0\ufe0f CONSTRAINT: 1 expired certificates"
+                        ]
+                    },
+                    {
+                        "train_id": "CR108",
+                        "recommended_action": "Maintenance",
+                        "priority_score": 86.9,
+                        "ml_decision": "Service",
+                        "ml_confidence": 0.64,
+                        "failure_risk": 0.0,
+                        "reasoning": [
+                            "ML model suggests: Service (confidence: 0.64)",
+                            "\u26a0\ufe0f CONSTRAINT: 1 expired certificates"
+                        ]
+                    },
+                    {
+                        "train_id": "CR112",
+                        "recommended_action": "Maintenance",
+                        "priority_score": 82.7,
+                        "ml_decision": "Service",
+                        "ml_confidence": 0.76,
+                        "failure_risk": 0.0,
+                        "reasoning": [
+                            "ML model suggests: Service (confidence: 0.76)",
+                            "\u26a0\ufe0f CONSTRAINT: 1 expired certificates"
+                        ]
+                    },
+                    {
+                        "train_id": "CR115",
+                        "recommended_action": "Standby",
+                        "priority_score": 74.6,
+                        "ml_decision": "Standby",
+                        "ml_confidence": 0.95,
+                        "failure_risk": 0.0,
+                        "reasoning": [
+                            "ML model suggests: Standby (confidence: 0.95)"
+                        ]
+                    },
+                    {
+                        "train_id": "CR113",
+                        "recommended_action": "Standby",
+                        "priority_score": 69.5,
+                        "ml_decision": "Standby",
+                        "ml_confidence": 0.91,
+                        "failure_risk": 0.0,
+                        "reasoning": [
+                            "ML model suggests: Standby (confidence: 0.91)"
+                        ]
+                    },
+                    {
+                        "train_id": "CR114",
+                        "recommended_action": "Maintenance",
+                        "priority_score": 69.3,
+                        "ml_decision": "Standby",
+                        "ml_confidence": 0.89,
+                        "failure_risk": 0.0,
+                        "reasoning": [
+                            "ML model suggests: Standby (confidence: 0.89)",
+                            "\u26a0\ufe0f CONSTRAINT: 1 expired certificates"
+                        ]
+                    },
+                    {
+                        "train_id": "CR118",
+                        "recommended_action": "Maintenance",
+                        "priority_score": 68.7,
+                        "ml_decision": "Standby",
+                        "ml_confidence": 0.88,
+                        "failure_risk": 0.0,
+                        "reasoning": [
+                            "ML model suggests: Standby (confidence: 0.88)",
+                            "\u26a0\ufe0f CONSTRAINT: 1 expired certificates"
+                        ]
+                    },
+                    {
+                        "train_id": "CR101",
+                        "recommended_action": "Maintenance",
+                        "priority_score": 68.3,
+                        "ml_decision": "Standby",
+                        "ml_confidence": 0.9,
+                        "failure_risk": 0.0,
+                        "reasoning": [
+                            "ML model suggests: Standby (confidence: 0.90)",
+                            "\u26a0\ufe0f CONSTRAINT: 1 expired certificates"
+                        ]
+                    },
+                    {
+                        "train_id": "CR116",
+                        "recommended_action": "Standby",
+                        "priority_score": 66.3,
+                        "ml_decision": "Standby",
+                        "ml_confidence": 0.84,
+                        "failure_risk": 0.0,
+                        "reasoning": [
+                            "ML model suggests: Standby (confidence: 0.84)"
+                        ]
+                    },
+                    {
+                        "train_id": "CR110",
+                        "recommended_action": "Maintenance",
+                        "priority_score": 63.8,
+                        "ml_decision": "Maintenance",
+                        "ml_confidence": 0.83,
+                        "failure_risk": 0.0,
+                        "reasoning": [
+                            "ML model suggests: Maintenance (confidence: 0.83)",
+                            "\u26a0\ufe0f CONSTRAINT: 1 expired certificates"
+                        ]
+                    },
+                    {
+                        "train_id": "CR111",
+                        "recommended_action": "Maintenance",
+                        "priority_score": 63.1,
+                        "ml_decision": "Maintenance",
+                        "ml_confidence": 0.96,
+                        "failure_risk": 0.0,
+                        "reasoning": [
+                            "ML model suggests: Maintenance (confidence: 0.96)",
+                            "\u26a0\ufe0f CONSTRAINT: 2 expired certificates"
+                        ]
+                    },
+                    {
+                        "train_id": "CR121",
+                        "recommended_action": "Maintenance",
+                        "priority_score": 62.1,
+                        "ml_decision": "Standby",
+                        "ml_confidence": 0.73,
+                        "failure_risk": 0.0,
+                        "reasoning": [
+                            "ML model suggests: Standby (confidence: 0.73)",
+                            "\u26a0\ufe0f CONSTRAINT: 2 expired certificates"
+                        ]
+                    },
+                    {
+                        "train_id": "CR124",
+                        "recommended_action": "Maintenance",
+                        "priority_score": 61.8,
+                        "ml_decision": "Maintenance",
+                        "ml_confidence": 0.89,
+                        "failure_risk": 0.0,
+                        "reasoning": [
+                            "ML model suggests: Maintenance (confidence: 0.89)",
+                            "\u26a0\ufe0f CONSTRAINT: 2 expired certificates"
+                        ]
+                    },
+                    {
+                        "train_id": "CR109",
+                        "recommended_action": "Maintenance",
+                        "priority_score": 61.2,
+                        "ml_decision": "Maintenance",
+                        "ml_confidence": 0.69,
+                        "failure_risk": 0.0,
+                        "reasoning": [
+                            "ML model suggests: Maintenance (confidence: 0.69)",
+                            "\u26a0\ufe0f CONSTRAINT: 1 expired certificates"
+                        ]
+                    },
+                    {
+                        "train_id": "CR119",
+                        "recommended_action": "Maintenance",
+                        "priority_score": 60.7,
+                        "ml_decision": "Maintenance",
+                        "ml_confidence": 0.83,
+                        "failure_risk": 0.0,
+                        "reasoning": [
+                            "ML model suggests: Maintenance (confidence: 0.83)",
+                            "\u26a0\ufe0f CONSTRAINT: 1 expired certificates"
+                        ]
+                    },
+                    {
+                        "train_id": "CR117",
+                        "recommended_action": "Maintenance",
+                        "priority_score": 60.4,
+                        "ml_decision": "Maintenance",
+                        "ml_confidence": 0.96,
+                        "failure_risk": 0.0,
+                        "reasoning": [
+                            "ML model suggests: Maintenance (confidence: 0.96)",
+                            "\u26a0\ufe0f CONSTRAINT: 2 expired certificates"
+                        ]
+                    },
+                    {
+                        "train_id": "CR103",
+                        "recommended_action": "Maintenance",
+                        "priority_score": 60.4,
+                        "ml_decision": "Maintenance",
+                        "ml_confidence": 0.94,
+                        "failure_risk": 0.0,
+                        "reasoning": [
+                            "ML model suggests: Maintenance (confidence: 0.94)",
+                            "\u26a0\ufe0f CONSTRAINT: 1 expired certificates"
+                        ]
+                    },
+                    {
+                        "train_id": "CR107",
+                        "recommended_action": "Maintenance",
+                        "priority_score": 59.6,
+                        "ml_decision": "Maintenance",
+                        "ml_confidence": 0.88,
+                        "failure_risk": 0.0,
+                        "reasoning": [
+                            "ML model suggests: Maintenance (confidence: 0.88)",
+                            "\u26a0\ufe0f CONSTRAINT: 2 expired certificates"
+                        ]
+                    },
+                    {
+                        "train_id": "CR122",
+                        "recommended_action": "Maintenance",
+                        "priority_score": 58.4,
+                        "ml_decision": "Standby",
+                        "ml_confidence": 0.87,
+                        "failure_risk": 0.0,
+                        "reasoning": [
+                            "ML model suggests: Standby (confidence: 0.87)",
+                            "\u26a0\ufe0f CONSTRAINT: 3 expired certificates"
+                        ]
+                    },
+                    {
+                        "train_id": "CR106",
+                        "recommended_action": "Maintenance",
+                        "priority_score": 57.1,
+                        "ml_decision": "Standby",
+                        "ml_confidence": 0.87,
+                        "failure_risk": 0.0,
+                        "reasoning": [
+                            "ML model suggests: Standby (confidence: 0.87)",
+                            "\u26a0\ufe0f CONSTRAINT: 3 expired certificates"
+                        ]
+                    },
+                    {
+                        "train_id": "CR125",
+                        "recommended_action": "Maintenance",
+                        "priority_score": 56.6,
+                        "ml_decision": "Standby",
+                        "ml_confidence": 0.61,
+                        "failure_risk": 0.0,
+                        "reasoning": [
+                            "ML model suggests: Standby (confidence: 0.61)",
+                            "\u26a0\ufe0f CONSTRAINT: 2 expired certificates"
+                        ]
+                    },
+                    {
+                        "train_id": "CR120",
+                        "recommended_action": "Maintenance",
+                        "priority_score": 55.2,
+                        "ml_decision": "Standby",
+                        "ml_confidence": 0.73,
+                        "failure_risk": 0.0,
+                        "reasoning": [
+                            "ML model suggests: Standby (confidence: 0.73)",
+                            "\u26a0\ufe0f CONSTRAINT: 2 expired certificates"
+                        ]
+                    },
+                    {
+                        "train_id": "CR104",
+                        "recommended_action": "Maintenance",
+                        "priority_score": 51.3,
+                        "ml_decision": "Maintenance",
+                        "ml_confidence": 0.83,
+                        "failure_risk": 0.0,
+                        "reasoning": [
+                            "ML model suggests: Maintenance (confidence: 0.83)",
+                            "\u26a0\ufe0f CONSTRAINT: 3 expired certificates"
+                        ]
+                    },
+                    {
+                        "train_id": "CR123",
+                        "recommended_action": "Maintenance",
+                        "priority_score": 49.5,
+                        "ml_decision": "Standby",
+                        "ml_confidence": 0.71,
+                        "failure_risk": 0.0,
+                        "reasoning": [
+                            "ML model suggests: Standby (confidence: 0.71)",
+                            "\u26a0\ufe0f CONSTRAINT: 2 expired certificates"
+                        ]
+                    }
+                ],
+                "operational_alerts": [],
+                "demand_forecast": {
+                    "forecast_start_hour": 11,
+                    "predictions": [
+                        {
+                            "hour": 11,
+                            "demand_score": 25.94764518737793,
+                            "demand_level": "Low"
+                        },
+                        {
+                            "hour": 12,
+                            "demand_score": 26.036151885986328,
+                            "demand_level": "Low"
+                        },
+                        {
+                            "hour": 13,
+                            "demand_score": 26.072099685668945,
+                            "demand_level": "Low"
+                        },
+                        {
+                            "hour": 14,
+                            "demand_score": 26.10100555419922,
+                            "demand_level": "Low"
+                        },
+                        {
+                            "hour": 15,
+                            "demand_score": 26.13086700439453,
+                            "demand_level": "Low"
+                        },
+                        {
+                            "hour": 16,
+                            "demand_score": 26.149778366088867,
+                            "demand_level": "Low"
+                        },
+                        {
+                            "hour": 17,
+                            "demand_score": 26.1550350189209,
+                            "demand_level": "Low"
+                        },
+                        {
+                            "hour": 18,
+                            "demand_score": 26.154863357543945,
+                            "demand_level": "Low"
+                        },
+                        {
+                            "hour": 19,
+                            "demand_score": 26.154766082763672,
+                            "demand_level": "Low"
+                        },
+                        {
+                            "hour": 20,
+                            "demand_score": 26.154712677001953,
+                            "demand_level": "Low"
+                        },
+                        {
+                            "hour": 21,
+                            "demand_score": 26.154678344726562,
+                            "demand_level": "Low"
+                        },
+                        {
+                            "hour": 22,
+                            "demand_score": 26.15467071533203,
+                            "demand_level": "Low"
+                        },
+                        {
+                            "hour": 23,
+                            "demand_score": 26.1546688079834,
+                            "demand_level": "Low"
+                        },
+                        {
+                            "hour": 0,
+                            "demand_score": 26.15467071533203,
+                            "demand_level": "Low"
+                        },
+                        {
+                            "hour": 1,
+                            "demand_score": 26.1546688079834,
+                            "demand_level": "Low"
+                        },
+                        {
+                            "hour": 2,
+                            "demand_score": 26.1546688079834,
+                            "demand_level": "Low"
+                        },
+                        {
+                            "hour": 3,
+                            "demand_score": 26.1546688079834,
+                            "demand_level": "Low"
+                        },
+                        {
+                            "hour": 4,
+                            "demand_score": 26.15467071533203,
+                            "demand_level": "Low"
+                        },
+                        {
+                            "hour": 5,
+                            "demand_score": 26.1546688079834,
+                            "demand_level": "Low"
+                        },
+                        {
+                            "hour": 6,
+                            "demand_score": 26.1546688079834,
+                            "demand_level": "Low"
+                        },
+                        {
+                            "hour": 7,
+                            "demand_score": 26.15467071533203,
+                            "demand_level": "Low"
+                        },
+                        {
+                            "hour": 8,
+                            "demand_score": 26.1546688079834,
+                            "demand_level": "Low"
+                        },
+                        {
+                            "hour": 9,
+                            "demand_score": 26.1546688079834,
+                            "demand_level": "Low"
+                        },
+                        {
+                            "hour": 10,
+                            "demand_score": 26.15467071533203,
+                            "demand_level": "Low"
+                        }
+                    ]
+                }
+            }
+        },
+        "cleaning_shortage": {
+            "name": "Cleaning Crew Shortage",
+            "description": "28 cleaning tasks delayed due to 80% crew shortage",
+            "modifications": [
+                "Delayed 28 cleaning tasks due to crew shortage",
+                "80% of cleaning operations affected",
+                "Potential service impact on passenger experience",
+                "Alternative cleaning priorities required"
+            ],
+            "results": {
+                "timestamp": "2025-09-19 10:58:52",
+                "optimization_summary": {
+                    "total_trains": 25,
+                    "service_ready": 0,
+                    "maintenance_required": 22,
+                    "standby": 3
+                },
+                "ml_insights": {
+                    "failure_prediction_enabled": false,
+                    "optimization_model_enabled": true,
+                    "demand_forecasting_enabled": true,
+                    "high_risk_trains": 0,
+                    "ml_accuracy_note": "Models trained on current operational data"
+                },
+                "train_recommendations": [
+                    {
+                        "train_id": "CR102",
+                        "recommended_action": "Maintenance",
+                        "priority_score": 89.6,
+                        "ml_decision": "Service",
+                        "ml_confidence": 0.76,
+                        "failure_risk": 0.0,
+                        "reasoning": [
+                            "ML model suggests: Service (confidence: 0.76)",
+                            "\u26a0\ufe0f CONSTRAINT: 1 expired certificates"
+                        ]
+                    },
+                    {
+                        "train_id": "CR105",
+                        "recommended_action": "Maintenance",
+                        "priority_score": 87.7,
+                        "ml_decision": "Service",
+                        "ml_confidence": 0.81,
+                        "failure_risk": 0.0,
+                        "reasoning": [
+                            "ML model suggests: Service (confidence: 0.81)",
+                            "\u26a0\ufe0f CONSTRAINT: 1 expired certificates"
+                        ]
+                    },
+                    {
+                        "train_id": "CR108",
+                        "recommended_action": "Maintenance",
+                        "priority_score": 86.9,
+                        "ml_decision": "Service",
+                        "ml_confidence": 0.64,
+                        "failure_risk": 0.0,
+                        "reasoning": [
+                            "ML model suggests: Service (confidence: 0.64)",
+                            "\u26a0\ufe0f CONSTRAINT: 1 expired certificates"
+                        ]
+                    },
+                    {
+                        "train_id": "CR112",
+                        "recommended_action": "Maintenance",
+                        "priority_score": 82.7,
+                        "ml_decision": "Service",
+                        "ml_confidence": 0.76,
+                        "failure_risk": 0.0,
+                        "reasoning": [
+                            "ML model suggests: Service (confidence: 0.76)",
+                            "\u26a0\ufe0f CONSTRAINT: 1 expired certificates"
+                        ]
+                    },
+                    {
+                        "train_id": "CR115",
+                        "recommended_action": "Standby",
+                        "priority_score": 74.6,
+                        "ml_decision": "Standby",
+                        "ml_confidence": 0.95,
+                        "failure_risk": 0.0,
+                        "reasoning": [
+                            "ML model suggests: Standby (confidence: 0.95)"
+                        ]
+                    },
+                    {
+                        "train_id": "CR113",
+                        "recommended_action": "Standby",
+                        "priority_score": 69.5,
+                        "ml_decision": "Standby",
+                        "ml_confidence": 0.91,
+                        "failure_risk": 0.0,
+                        "reasoning": [
+                            "ML model suggests: Standby (confidence: 0.91)"
+                        ]
+                    },
+                    {
+                        "train_id": "CR114",
+                        "recommended_action": "Maintenance",
+                        "priority_score": 69.3,
+                        "ml_decision": "Standby",
+                        "ml_confidence": 0.89,
+                        "failure_risk": 0.0,
+                        "reasoning": [
+                            "ML model suggests: Standby (confidence: 0.89)",
+                            "\u26a0\ufe0f CONSTRAINT: 1 expired certificates"
+                        ]
+                    },
+                    {
+                        "train_id": "CR118",
+                        "recommended_action": "Maintenance",
+                        "priority_score": 68.7,
+                        "ml_decision": "Standby",
+                        "ml_confidence": 0.88,
+                        "failure_risk": 0.0,
+                        "reasoning": [
+                            "ML model suggests: Standby (confidence: 0.88)",
+                            "\u26a0\ufe0f CONSTRAINT: 1 expired certificates"
+                        ]
+                    },
+                    {
+                        "train_id": "CR101",
+                        "recommended_action": "Maintenance",
+                        "priority_score": 68.3,
+                        "ml_decision": "Standby",
+                        "ml_confidence": 0.9,
+                        "failure_risk": 0.0,
+                        "reasoning": [
+                            "ML model suggests: Standby (confidence: 0.90)",
+                            "\u26a0\ufe0f CONSTRAINT: 1 expired certificates"
+                        ]
+                    },
+                    {
+                        "train_id": "CR116",
+                        "recommended_action": "Standby",
+                        "priority_score": 66.3,
+                        "ml_decision": "Standby",
+                        "ml_confidence": 0.84,
+                        "failure_risk": 0.0,
+                        "reasoning": [
+                            "ML model suggests: Standby (confidence: 0.84)"
+                        ]
+                    },
+                    {
+                        "train_id": "CR110",
+                        "recommended_action": "Maintenance",
+                        "priority_score": 63.8,
+                        "ml_decision": "Maintenance",
+                        "ml_confidence": 0.83,
+                        "failure_risk": 0.0,
+                        "reasoning": [
+                            "ML model suggests: Maintenance (confidence: 0.83)",
+                            "\u26a0\ufe0f CONSTRAINT: 1 expired certificates"
+                        ]
+                    },
+                    {
+                        "train_id": "CR111",
+                        "recommended_action": "Maintenance",
+                        "priority_score": 63.1,
+                        "ml_decision": "Maintenance",
+                        "ml_confidence": 0.96,
+                        "failure_risk": 0.0,
+                        "reasoning": [
+                            "ML model suggests: Maintenance (confidence: 0.96)",
+                            "\u26a0\ufe0f CONSTRAINT: 2 expired certificates"
+                        ]
+                    },
+                    {
+                        "train_id": "CR121",
+                        "recommended_action": "Maintenance",
+                        "priority_score": 62.1,
+                        "ml_decision": "Standby",
+                        "ml_confidence": 0.73,
+                        "failure_risk": 0.0,
+                        "reasoning": [
+                            "ML model suggests: Standby (confidence: 0.73)",
+                            "\u26a0\ufe0f CONSTRAINT: 2 expired certificates"
+                        ]
+                    },
+                    {
+                        "train_id": "CR124",
+                        "recommended_action": "Maintenance",
+                        "priority_score": 61.8,
+                        "ml_decision": "Maintenance",
+                        "ml_confidence": 0.89,
+                        "failure_risk": 0.0,
+                        "reasoning": [
+                            "ML model suggests: Maintenance (confidence: 0.89)",
+                            "\u26a0\ufe0f CONSTRAINT: 2 expired certificates"
+                        ]
+                    },
+                    {
+                        "train_id": "CR109",
+                        "recommended_action": "Maintenance",
+                        "priority_score": 61.2,
+                        "ml_decision": "Maintenance",
+                        "ml_confidence": 0.69,
+                        "failure_risk": 0.0,
+                        "reasoning": [
+                            "ML model suggests: Maintenance (confidence: 0.69)",
+                            "\u26a0\ufe0f CONSTRAINT: 1 expired certificates"
+                        ]
+                    },
+                    {
+                        "train_id": "CR119",
+                        "recommended_action": "Maintenance",
+                        "priority_score": 60.7,
+                        "ml_decision": "Maintenance",
+                        "ml_confidence": 0.83,
+                        "failure_risk": 0.0,
+                        "reasoning": [
+                            "ML model suggests: Maintenance (confidence: 0.83)",
+                            "\u26a0\ufe0f CONSTRAINT: 1 expired certificates"
+                        ]
+                    },
+                    {
+                        "train_id": "CR117",
+                        "recommended_action": "Maintenance",
+                        "priority_score": 60.4,
+                        "ml_decision": "Maintenance",
+                        "ml_confidence": 0.96,
+                        "failure_risk": 0.0,
+                        "reasoning": [
+                            "ML model suggests: Maintenance (confidence: 0.96)",
+                            "\u26a0\ufe0f CONSTRAINT: 2 expired certificates"
+                        ]
+                    },
+                    {
+                        "train_id": "CR103",
+                        "recommended_action": "Maintenance",
+                        "priority_score": 60.4,
+                        "ml_decision": "Maintenance",
+                        "ml_confidence": 0.94,
+                        "failure_risk": 0.0,
+                        "reasoning": [
+                            "ML model suggests: Maintenance (confidence: 0.94)",
+                            "\u26a0\ufe0f CONSTRAINT: 1 expired certificates"
+                        ]
+                    },
+                    {
+                        "train_id": "CR107",
+                        "recommended_action": "Maintenance",
+                        "priority_score": 59.6,
+                        "ml_decision": "Maintenance",
+                        "ml_confidence": 0.88,
+                        "failure_risk": 0.0,
+                        "reasoning": [
+                            "ML model suggests: Maintenance (confidence: 0.88)",
+                            "\u26a0\ufe0f CONSTRAINT: 2 expired certificates"
+                        ]
+                    },
+                    {
+                        "train_id": "CR122",
+                        "recommended_action": "Maintenance",
+                        "priority_score": 58.4,
+                        "ml_decision": "Standby",
+                        "ml_confidence": 0.87,
+                        "failure_risk": 0.0,
+                        "reasoning": [
+                            "ML model suggests: Standby (confidence: 0.87)",
+                            "\u26a0\ufe0f CONSTRAINT: 3 expired certificates"
+                        ]
+                    },
+                    {
+                        "train_id": "CR106",
+                        "recommended_action": "Maintenance",
+                        "priority_score": 57.1,
+                        "ml_decision": "Standby",
+                        "ml_confidence": 0.87,
+                        "failure_risk": 0.0,
+                        "reasoning": [
+                            "ML model suggests: Standby (confidence: 0.87)",
+                            "\u26a0\ufe0f CONSTRAINT: 3 expired certificates"
+                        ]
+                    },
+                    {
+                        "train_id": "CR125",
+                        "recommended_action": "Maintenance",
+                        "priority_score": 56.6,
+                        "ml_decision": "Standby",
+                        "ml_confidence": 0.61,
+                        "failure_risk": 0.0,
+                        "reasoning": [
+                            "ML model suggests: Standby (confidence: 0.61)",
+                            "\u26a0\ufe0f CONSTRAINT: 2 expired certificates"
+                        ]
+                    },
+                    {
+                        "train_id": "CR120",
+                        "recommended_action": "Maintenance",
+                        "priority_score": 55.2,
+                        "ml_decision": "Standby",
+                        "ml_confidence": 0.73,
+                        "failure_risk": 0.0,
+                        "reasoning": [
+                            "ML model suggests: Standby (confidence: 0.73)",
+                            "\u26a0\ufe0f CONSTRAINT: 2 expired certificates"
+                        ]
+                    },
+                    {
+                        "train_id": "CR104",
+                        "recommended_action": "Maintenance",
+                        "priority_score": 51.3,
+                        "ml_decision": "Maintenance",
+                        "ml_confidence": 0.83,
+                        "failure_risk": 0.0,
+                        "reasoning": [
+                            "ML model suggests: Maintenance (confidence: 0.83)",
+                            "\u26a0\ufe0f CONSTRAINT: 3 expired certificates"
+                        ]
+                    },
+                    {
+                        "train_id": "CR123",
+                        "recommended_action": "Maintenance",
+                        "priority_score": 49.5,
+                        "ml_decision": "Standby",
+                        "ml_confidence": 0.71,
+                        "failure_risk": 0.0,
+                        "reasoning": [
+                            "ML model suggests: Standby (confidence: 0.71)",
+                            "\u26a0\ufe0f CONSTRAINT: 2 expired certificates"
+                        ]
+                    }
+                ],
+                "operational_alerts": [],
+                "demand_forecast": {
+                    "forecast_start_hour": 11,
+                    "predictions": [
+                        {
+                            "hour": 11,
+                            "demand_score": 25.961729049682617,
+                            "demand_level": "Low"
+                        },
+                        {
+                            "hour": 12,
+                            "demand_score": 26.04722785949707,
+                            "demand_level": "Low"
+                        },
+                        {
+                            "hour": 13,
+                            "demand_score": 26.075908660888672,
+                            "demand_level": "Low"
+                        },
+                        {
+                            "hour": 14,
+                            "demand_score": 26.097244262695312,
+                            "demand_level": "Low"
+                        },
+                        {
+                            "hour": 15,
+                            "demand_score": 26.129507064819336,
+                            "demand_level": "Low"
+                        },
+                        {
+                            "hour": 16,
+                            "demand_score": 26.149646759033203,
+                            "demand_level": "Low"
+                        },
+                        {
+                            "hour": 17,
+                            "demand_score": 26.15502166748047,
+                            "demand_level": "Low"
+                        },
+                        {
+                            "hour": 18,
+                            "demand_score": 26.154863357543945,
+                            "demand_level": "Low"
+                        },
+                        {
+                            "hour": 19,
+                            "demand_score": 26.154775619506836,
+                            "demand_level": "Low"
+                        },
+                        {
+                            "hour": 20,
+                            "demand_score": 26.154712677001953,
+                            "demand_level": "Low"
+                        },
+                        {
+                            "hour": 21,
+                            "demand_score": 26.154678344726562,
+                            "demand_level": "Low"
+                        },
+                        {
+                            "hour": 22,
+                            "demand_score": 26.154672622680664,
+                            "demand_level": "Low"
+                        },
+                        {
+                            "hour": 23,
+                            "demand_score": 26.1546688079834,
+                            "demand_level": "Low"
+                        },
+                        {
+                            "hour": 0,
+                            "demand_score": 26.1546688079834,
+                            "demand_level": "Low"
+                        },
+                        {
+                            "hour": 1,
+                            "demand_score": 26.1546688079834,
+                            "demand_level": "Low"
+                        },
+                        {
+                            "hour": 2,
+                            "demand_score": 26.15467071533203,
+                            "demand_level": "Low"
+                        },
+                        {
+                            "hour": 3,
+                            "demand_score": 26.1546688079834,
+                            "demand_level": "Low"
+                        },
+                        {
+                            "hour": 4,
+                            "demand_score": 26.1546688079834,
+                            "demand_level": "Low"
+                        },
+                        {
+                            "hour": 5,
+                            "demand_score": 26.15467071533203,
+                            "demand_level": "Low"
+                        },
+                        {
+                            "hour": 6,
+                            "demand_score": 26.1546688079834,
+                            "demand_level": "Low"
+                        },
+                        {
+                            "hour": 7,
+                            "demand_score": 26.1546688079834,
+                            "demand_level": "Low"
+                        },
+                        {
+                            "hour": 8,
+                            "demand_score": 26.15467071533203,
+                            "demand_level": "Low"
+                        },
+                        {
+                            "hour": 9,
+                            "demand_score": 26.1546688079834,
+                            "demand_level": "Low"
+                        },
+                        {
+                            "hour": 10,
+                            "demand_score": 26.1546688079834,
+                            "demand_level": "Low"
+                        }
+                    ]
+                }
+            }
+        },
+        "peak_demand": {
+            "name": "Peak Demand Day",
+            "description": "High passenger volume requires 5 additional trains in service",
+            "modifications": [
+                "Service requirement increased by 5 trains (18 \u2192 23)",
+                "Peak demand event requires maximum fleet utilization",
+                "8 low-mileage trains prioritized for extra service",
+                "Branding contract compliance critical during high visibility"
+            ],
+            "results": {
+                "timestamp": "2025-09-19 10:58:54",
+                "optimization_summary": {
+                    "total_trains": 25,
+                    "service_ready": 3,
+                    "maintenance_required": 22,
+                    "standby": 0
+                },
+                "ml_insights": {
+                    "failure_prediction_enabled": false,
+                    "optimization_model_enabled": true,
+                    "demand_forecasting_enabled": true,
+                    "high_risk_trains": 0,
+                    "ml_accuracy_note": "Models trained on current operational data"
+                },
+                "train_recommendations": [
+                    {
+                        "train_id": "CR102",
+                        "recommended_action": "Maintenance",
+                        "priority_score": 89.6,
+                        "ml_decision": "Service",
+                        "ml_confidence": 0.76,
+                        "failure_risk": 0.0,
+                        "reasoning": [
+                            "ML model suggests: Service (confidence: 0.76)",
+                            "\u26a0\ufe0f CONSTRAINT: 1 expired certificates"
+                        ]
+                    },
+                    {
+                        "train_id": "CR105",
+                        "recommended_action": "Maintenance",
+                        "priority_score": 87.7,
+                        "ml_decision": "Service",
+                        "ml_confidence": 0.81,
+                        "failure_risk": 0.0,
+                        "reasoning": [
+                            "ML model suggests: Service (confidence: 0.81)",
+                            "\u26a0\ufe0f CONSTRAINT: 1 expired certificates"
+                        ]
+                    },
+                    {
+                        "train_id": "CR108",
+                        "recommended_action": "Maintenance",
+                        "priority_score": 86.9,
+                        "ml_decision": "Service",
+                        "ml_confidence": 0.64,
+                        "failure_risk": 0.0,
+                        "reasoning": [
+                            "ML model suggests: Service (confidence: 0.64)",
+                            "\u26a0\ufe0f CONSTRAINT: 1 expired certificates"
+                        ]
+                    },
+                    {
+                        "train_id": "CR112",
+                        "recommended_action": "Maintenance",
+                        "priority_score": 82.7,
+                        "ml_decision": "Service",
+                        "ml_confidence": 0.76,
+                        "failure_risk": 0.0,
+                        "reasoning": [
+                            "ML model suggests: Service (confidence: 0.76)",
+                            "\u26a0\ufe0f CONSTRAINT: 1 expired certificates"
+                        ]
+                    },
+                    {
+                        "train_id": "CR115",
+                        "recommended_action": "Standby",
+                        "priority_score": 74.6,
+                        "ml_decision": "Standby",
+                        "ml_confidence": 0.95,
+                        "failure_risk": 0.0,
+                        "reasoning": [
+                            "ML model suggests: Standby (confidence: 0.95)"
+                        ]
+                    },
+                    {
+                        "train_id": "CR113",
+                        "recommended_action": "Standby",
+                        "priority_score": 69.5,
+                        "ml_decision": "Standby",
+                        "ml_confidence": 0.91,
+                        "failure_risk": 0.0,
+                        "reasoning": [
+                            "ML model suggests: Standby (confidence: 0.91)"
+                        ]
+                    },
+                    {
+                        "train_id": "CR114",
+                        "recommended_action": "Maintenance",
+                        "priority_score": 69.3,
+                        "ml_decision": "Standby",
+                        "ml_confidence": 0.89,
+                        "failure_risk": 0.0,
+                        "reasoning": [
+                            "ML model suggests: Standby (confidence: 0.89)",
+                            "\u26a0\ufe0f CONSTRAINT: 1 expired certificates"
+                        ]
+                    },
+                    {
+                        "train_id": "CR118",
+                        "recommended_action": "Maintenance",
+                        "priority_score": 68.7,
+                        "ml_decision": "Standby",
+                        "ml_confidence": 0.88,
+                        "failure_risk": 0.0,
+                        "reasoning": [
+                            "ML model suggests: Standby (confidence: 0.88)",
+                            "\u26a0\ufe0f CONSTRAINT: 1 expired certificates"
+                        ]
+                    },
+                    {
+                        "train_id": "CR101",
+                        "recommended_action": "Maintenance",
+                        "priority_score": 68.3,
+                        "ml_decision": "Standby",
+                        "ml_confidence": 0.9,
+                        "failure_risk": 0.0,
+                        "reasoning": [
+                            "ML model suggests: Standby (confidence: 0.90)",
+                            "\u26a0\ufe0f CONSTRAINT: 1 expired certificates"
+                        ]
+                    },
+                    {
+                        "train_id": "CR116",
+                        "recommended_action": "Standby",
+                        "priority_score": 66.3,
+                        "ml_decision": "Standby",
+                        "ml_confidence": 0.84,
+                        "failure_risk": 0.0,
+                        "reasoning": [
+                            "ML model suggests: Standby (confidence: 0.84)"
+                        ]
+                    },
+                    {
+                        "train_id": "CR110",
+                        "recommended_action": "Maintenance",
+                        "priority_score": 63.8,
+                        "ml_decision": "Maintenance",
+                        "ml_confidence": 0.83,
+                        "failure_risk": 0.0,
+                        "reasoning": [
+                            "ML model suggests: Maintenance (confidence: 0.83)",
+                            "\u26a0\ufe0f CONSTRAINT: 1 expired certificates"
+                        ]
+                    },
+                    {
+                        "train_id": "CR111",
+                        "recommended_action": "Maintenance",
+                        "priority_score": 63.1,
+                        "ml_decision": "Maintenance",
+                        "ml_confidence": 0.96,
+                        "failure_risk": 0.0,
+                        "reasoning": [
+                            "ML model suggests: Maintenance (confidence: 0.96)",
+                            "\u26a0\ufe0f CONSTRAINT: 2 expired certificates"
+                        ]
+                    },
+                    {
+                        "train_id": "CR121",
+                        "recommended_action": "Maintenance",
+                        "priority_score": 62.1,
+                        "ml_decision": "Standby",
+                        "ml_confidence": 0.73,
+                        "failure_risk": 0.0,
+                        "reasoning": [
+                            "ML model suggests: Standby (confidence: 0.73)",
+                            "\u26a0\ufe0f CONSTRAINT: 2 expired certificates"
+                        ]
+                    },
+                    {
+                        "train_id": "CR124",
+                        "recommended_action": "Maintenance",
+                        "priority_score": 61.8,
+                        "ml_decision": "Maintenance",
+                        "ml_confidence": 0.89,
+                        "failure_risk": 0.0,
+                        "reasoning": [
+                            "ML model suggests: Maintenance (confidence: 0.89)",
+                            "\u26a0\ufe0f CONSTRAINT: 2 expired certificates"
+                        ]
+                    },
+                    {
+                        "train_id": "CR109",
+                        "recommended_action": "Maintenance",
+                        "priority_score": 61.2,
+                        "ml_decision": "Maintenance",
+                        "ml_confidence": 0.69,
+                        "failure_risk": 0.0,
+                        "reasoning": [
+                            "ML model suggests: Maintenance (confidence: 0.69)",
+                            "\u26a0\ufe0f CONSTRAINT: 1 expired certificates"
+                        ]
+                    },
+                    {
+                        "train_id": "CR119",
+                        "recommended_action": "Maintenance",
+                        "priority_score": 60.7,
+                        "ml_decision": "Maintenance",
+                        "ml_confidence": 0.83,
+                        "failure_risk": 0.0,
+                        "reasoning": [
+                            "ML model suggests: Maintenance (confidence: 0.83)",
+                            "\u26a0\ufe0f CONSTRAINT: 1 expired certificates"
+                        ]
+                    },
+                    {
+                        "train_id": "CR117",
+                        "recommended_action": "Maintenance",
+                        "priority_score": 60.4,
+                        "ml_decision": "Maintenance",
+                        "ml_confidence": 0.96,
+                        "failure_risk": 0.0,
+                        "reasoning": [
+                            "ML model suggests: Maintenance (confidence: 0.96)",
+                            "\u26a0\ufe0f CONSTRAINT: 2 expired certificates"
+                        ]
+                    },
+                    {
+                        "train_id": "CR103",
+                        "recommended_action": "Maintenance",
+                        "priority_score": 60.4,
+                        "ml_decision": "Maintenance",
+                        "ml_confidence": 0.94,
+                        "failure_risk": 0.0,
+                        "reasoning": [
+                            "ML model suggests: Maintenance (confidence: 0.94)",
+                            "\u26a0\ufe0f CONSTRAINT: 1 expired certificates"
+                        ]
+                    },
+                    {
+                        "train_id": "CR107",
+                        "recommended_action": "Maintenance",
+                        "priority_score": 59.6,
+                        "ml_decision": "Maintenance",
+                        "ml_confidence": 0.88,
+                        "failure_risk": 0.0,
+                        "reasoning": [
+                            "ML model suggests: Maintenance (confidence: 0.88)",
+                            "\u26a0\ufe0f CONSTRAINT: 2 expired certificates"
+                        ]
+                    },
+                    {
+                        "train_id": "CR122",
+                        "recommended_action": "Maintenance",
+                        "priority_score": 58.4,
+                        "ml_decision": "Standby",
+                        "ml_confidence": 0.87,
+                        "failure_risk": 0.0,
+                        "reasoning": [
+                            "ML model suggests: Standby (confidence: 0.87)",
+                            "\u26a0\ufe0f CONSTRAINT: 3 expired certificates"
+                        ]
+                    },
+                    {
+                        "train_id": "CR106",
+                        "recommended_action": "Maintenance",
+                        "priority_score": 57.1,
+                        "ml_decision": "Standby",
+                        "ml_confidence": 0.87,
+                        "failure_risk": 0.0,
+                        "reasoning": [
+                            "ML model suggests: Standby (confidence: 0.87)",
+                            "\u26a0\ufe0f CONSTRAINT: 3 expired certificates"
+                        ]
+                    },
+                    {
+                        "train_id": "CR125",
+                        "recommended_action": "Maintenance",
+                        "priority_score": 56.6,
+                        "ml_decision": "Standby",
+                        "ml_confidence": 0.61,
+                        "failure_risk": 0.0,
+                        "reasoning": [
+                            "ML model suggests: Standby (confidence: 0.61)",
+                            "\u26a0\ufe0f CONSTRAINT: 2 expired certificates"
+                        ]
+                    },
+                    {
+                        "train_id": "CR120",
+                        "recommended_action": "Maintenance",
+                        "priority_score": 55.2,
+                        "ml_decision": "Standby",
+                        "ml_confidence": 0.73,
+                        "failure_risk": 0.0,
+                        "reasoning": [
+                            "ML model suggests: Standby (confidence: 0.73)",
+                            "\u26a0\ufe0f CONSTRAINT: 2 expired certificates"
+                        ]
+                    },
+                    {
+                        "train_id": "CR104",
+                        "recommended_action": "Maintenance",
+                        "priority_score": 51.3,
+                        "ml_decision": "Maintenance",
+                        "ml_confidence": 0.83,
+                        "failure_risk": 0.0,
+                        "reasoning": [
+                            "ML model suggests: Maintenance (confidence: 0.83)",
+                            "\u26a0\ufe0f CONSTRAINT: 3 expired certificates"
+                        ]
+                    },
+                    {
+                        "train_id": "CR123",
+                        "recommended_action": "Maintenance",
+                        "priority_score": 49.5,
+                        "ml_decision": "Standby",
+                        "ml_confidence": 0.71,
+                        "failure_risk": 0.0,
+                        "reasoning": [
+                            "ML model suggests: Standby (confidence: 0.71)",
+                            "\u26a0\ufe0f CONSTRAINT: 2 expired certificates"
+                        ]
+                    }
+                ],
+                "operational_alerts": [],
+                "demand_forecast": {
+                    "forecast_start_hour": 11,
+                    "predictions": [
+                        {
+                            "hour": 11,
+                            "demand_score": 25.94577980041504,
+                            "demand_level": "Low"
+                        },
+                        {
+                            "hour": 12,
+                            "demand_score": 26.030860900878906,
+                            "demand_level": "Low"
+                        },
+                        {
+                            "hour": 13,
+                            "demand_score": 26.0648193359375,
+                            "demand_level": "Low"
+                        },
+                        {
+                            "hour": 14,
+                            "demand_score": 26.09577751159668,
+                            "demand_level": "Low"
+                        },
+                        {
+                            "hour": 15,
+                            "demand_score": 26.128496170043945,
+                            "demand_level": "Low"
+                        },
+                        {
+                            "hour": 16,
+                            "demand_score": 26.149538040161133,
+                            "demand_level": "Low"
+                        },
+                        {
+                            "hour": 17,
+                            "demand_score": 26.155054092407227,
+                            "demand_level": "Low"
+                        },
+                        {
+                            "hour": 18,
+                            "demand_score": 26.15488052368164,
+                            "demand_level": "Low"
+                        },
+                        {
+                            "hour": 19,
+                            "demand_score": 26.154773712158203,
+                            "demand_level": "Low"
+                        },
+                        {
+                            "hour": 20,
+                            "demand_score": 26.154714584350586,
+                            "demand_level": "Low"
+                        },
+                        {
+                            "hour": 21,
+                            "demand_score": 26.154678344726562,
+                            "demand_level": "Low"
+                        },
+                        {
+                            "hour": 22,
+                            "demand_score": 26.15467071533203,
+                            "demand_level": "Low"
+                        },
+                        {
+                            "hour": 23,
+                            "demand_score": 26.1546688079834,
+                            "demand_level": "Low"
+                        },
+                        {
+                            "hour": 0,
+                            "demand_score": 26.1546688079834,
+                            "demand_level": "Low"
+                        },
+                        {
+                            "hour": 1,
+                            "demand_score": 26.1546688079834,
+                            "demand_level": "Low"
+                        },
+                        {
+                            "hour": 2,
+                            "demand_score": 26.1546688079834,
+                            "demand_level": "Low"
+                        },
+                        {
+                            "hour": 3,
+                            "demand_score": 26.1546688079834,
+                            "demand_level": "Low"
+                        },
+                        {
+                            "hour": 4,
+                            "demand_score": 26.15467071533203,
+                            "demand_level": "Low"
+                        },
+                        {
+                            "hour": 5,
+                            "demand_score": 26.1546688079834,
+                            "demand_level": "Low"
+                        },
+                        {
+                            "hour": 6,
+                            "demand_score": 26.1546688079834,
+                            "demand_level": "Low"
+                        },
+                        {
+                            "hour": 7,
+                            "demand_score": 26.15467071533203,
+                            "demand_level": "Low"
+                        },
+                        {
+                            "hour": 8,
+                            "demand_score": 26.1546688079834,
+                            "demand_level": "Low"
+                        },
+                        {
+                            "hour": 9,
+                            "demand_score": 26.1546688079834,
+                            "demand_level": "Low"
+                        },
+                        {
+                            "hour": 10,
+                            "demand_score": 26.15467071533203,
+                            "demand_level": "Low"
+                        }
+                    ]
+                },
+                "scenario_impact": {
+                    "additional_trains_needed": 5,
+                    "additional_trains_available": 3,
+                    "service_gap": 2,
+                    "demand_multiplier": 1.3
+                }
+            }
+        }
+    },
+    "comparison": {
+        "comparison_timestamp": "2025-09-19 10:58:54",
+        "scenarios_analyzed": 6,
+        "scenario_summaries": {
+            "emergency_maintenance": {
+                "name": "Emergency Maintenance Crisis",
+                "description": "5 trains (CR123, CR122, CR103, CR102, CR104) suffer simultaneous electrical failures",
+                "service_ready": 0,
+                "maintenance_required": 22,
+                "standby": 3,
+                "operational_alerts": 0,
+                "modifications_count": 5
+            },
+            "branding_surge": {
+                "name": "Branding Contract Surge",
+                "description": "3 new high-value advertising contracts require immediate service commitment",
+                "service_ready": 0,
+                "maintenance_required": 22,
+                "standby": 3,
+                "operational_alerts": 0,
+                "modifications_count": 4
+            },
+            "certificate_renewal": {
+                "name": "Mass Certificate Renewal",
+                "description": "All expired and pending certificates renewed - maximum fleet availability",
+                "service_ready": 0,
+                "maintenance_required": 22,
+                "standby": 3,
+                "operational_alerts": 0,
+                "modifications_count": 4
+            },
+            "cleaning_shortage": {
+                "name": "Cleaning Crew Shortage",
+                "description": "28 cleaning tasks delayed due to 80% crew shortage",
+                "service_ready": 0,
+                "maintenance_required": 22,
+                "standby": 3,
+                "operational_alerts": 0,
+                "modifications_count": 4
+            },
+            "peak_demand": {
+                "name": "Peak Demand Day",
+                "description": "High passenger volume requires 5 additional trains in service",
+                "service_ready": 3,
+                "maintenance_required": 22,
+                "standby": 0,
+                "operational_alerts": 0,
+                "modifications_count": 4
+            }
+        },
+        "impact_analysis": {
+            "emergency_maintenance": {
+                "service_change": 0,
+                "maintenance_change": 0,
+                "standby_change": 0,
+                "alert_severity": "Low",
+                "operational_impact": "Low"
+            },
+            "branding_surge": {
+                "service_change": 0,
+                "maintenance_change": 0,
+                "standby_change": 0,
+                "alert_severity": "Low",
+                "operational_impact": "Low"
+            },
+            "certificate_renewal": {
+                "service_change": 0,
+                "maintenance_change": 0,
+                "standby_change": 0,
+                "alert_severity": "Low",
+                "operational_impact": "Low"
+            },
+            "cleaning_shortage": {
+                "service_change": 0,
+                "maintenance_change": 0,
+                "standby_change": 0,
+                "alert_severity": "Low",
+                "operational_impact": "Low"
+            },
+            "peak_demand": {
+                "service_change": 3,
+                "maintenance_change": 0,
+                "standby_change": -3,
+                "alert_severity": "Low",
+                "operational_impact": "Medium"
+            }
+        },
+        "recommendations": [
+            "Emergency Maintenance: Maintain 2-3 standby trains as emergency buffer",
+            "Branding Surge: Prioritize certificate renewals for high-value advertising trains",
+            "Certificate Renewals: Batch process renewals to maximize service availability",
+            "Cleaning Shortage: Cross-train maintenance staff for basic cleaning tasks",
+            "Peak Demand: Develop dynamic service scaling protocols"
+        ]
+    }
+}

@@ -1,0 +1,26 @@
+Train_ID,Date,Bogie_Usage_Pct,BrakePad_Usage_Pct,HVAC_Usage_Pct,Motor_Usage_Pct,Average_Usage_Pct,Critical_Components,Priority,Recommendation,Balancing_Score,Notes
+CR101,2025-01-20,54.4,54.4,54.4,54.4,54.4,,Medium,Maintain_Current_Schedule,100.0,Balancing required: 0 critical components
+CR102,2025-01-20,38.3,38.3,38.3,38.3,38.3,,Medium,Maintain_Current_Schedule,100.0,Balancing required: 0 critical components
+CR103,2025-01-20,53.9,53.9,53.9,53.9,53.9,,Medium,Maintain_Current_Schedule,100.0,Balancing required: 0 critical components
+CR104,2025-01-20,66.3,66.3,66.3,66.3,66.3,,Medium,Maintain_Current_Schedule,100.0,Balancing required: 0 critical components
+CR105,2025-01-20,61.7,61.7,61.7,61.7,61.7,,Medium,Maintain_Current_Schedule,100.0,Balancing required: 0 critical components
+CR106,2025-01-20,11.5,11.5,11.5,11.5,11.5,,Low,Increase_Service_Hours,100.0,Balancing required: 0 critical components
+CR107,2025-01-20,16.0,16.0,16.0,16.0,16.0,,Low,Increase_Service_Hours,100.0,Balancing required: 0 critical components
+CR108,2025-01-20,51.3,51.3,51.3,51.3,51.3,,Medium,Maintain_Current_Schedule,100.0,Balancing required: 0 critical components
+CR109,2025-01-20,36.9,36.9,36.9,36.9,36.9,,Medium,Maintain_Current_Schedule,100.0,Balancing required: 0 critical components
+CR110,2025-01-20,41.5,41.5,41.5,41.5,41.5,,Medium,Maintain_Current_Schedule,100.0,Balancing required: 0 critical components
+CR111,2025-01-20,19.3,19.3,19.2,19.2,19.3,,Low,Increase_Service_Hours,100.0,Balancing required: 0 critical components
+CR112,2025-01-20,16.4,16.4,16.4,16.4,16.4,,Low,Increase_Service_Hours,100.0,Balancing required: 0 critical components
+CR113,2025-01-20,11.7,11.7,11.7,11.7,11.7,,Low,Increase_Service_Hours,100.0,Balancing required: 0 critical components
+CR114,2025-01-20,93.1,93.1,93.1,93.1,93.1,"Bogie_Mileage,BrakePad_Mileage,HVAC_Hours,Motor_Hours,Traction_Mileage",Critical,Immediate_Maintenance,100.0,Balancing required: 5 critical components
+CR115,2025-01-20,57.9,57.9,57.9,57.9,57.9,,Medium,Maintain_Current_Schedule,100.0,Balancing required: 0 critical components
+CR116,2025-01-20,85.5,85.5,85.5,85.5,85.5,,High,Reduce_Service_Hours,100.0,Balancing required: 0 critical components
+CR117,2025-01-20,34.2,34.2,34.2,34.2,34.2,,Medium,Maintain_Current_Schedule,100.0,Balancing required: 0 critical components
+CR118,2025-01-20,28.0,28.0,28.0,28.0,28.0,,Low,Increase_Service_Hours,100.0,Balancing required: 0 critical components
+CR119,2025-01-20,88.2,88.2,88.2,88.2,88.2,,High,Reduce_Service_Hours,100.0,Balancing required: 0 critical components
+CR120,2025-01-20,65.2,65.2,65.2,65.2,65.2,,Medium,Maintain_Current_Schedule,100.0,Balancing required: 0 critical components
+CR121,2025-01-20,56.7,56.7,56.7,56.7,56.7,,Medium,Maintain_Current_Schedule,100.0,Balancing required: 0 critical components
+CR122,2025-01-20,25.3,25.3,25.3,25.3,25.3,,Low,Increase_Service_Hours,100.0,Balancing required: 0 critical components
+CR123,2025-01-20,40.0,40.0,40.0,40.0,40.0,,Medium,Maintain_Current_Schedule,100.0,Balancing required: 0 critical components
+CR124,2025-01-20,51.2,51.2,51.2,51.2,51.2,,Medium,Maintain_Current_Schedule,100.0,Balancing required: 0 critical components
+CR125,2025-01-20,15.8,15.8,15.8,15.8,15.8,,Low,Increase_Service_Hours,100.0,Balancing required: 0 critical components

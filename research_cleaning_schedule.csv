@@ -1,0 +1,127 @@
+Schedule_ID,Train_ID,Date,Cleaning_Type,Assigned_Bay,Assigned_Crew,Estimated_Duration_Hours,Priority,Status,Start_Time,Days_Since_Last_Clean,Resource_Utilization_Pct,Cost_Estimate,Notes
+CLN-20250120-CR101-d6fa,CR101,2025-01-20,Window_Polish,CB-1,Window_Team_2,1.6,Low,Scheduled,24:18,1,100.0,3670.4,Window Polish in CB-1 - 1.6h estimated
+CLN-20250120-CR102-1b34,CR102,2025-01-20,Exterior_Wash,CB-2,Exterior_Team_1,1.4,High,Delayed,23:14,8,100.0,2893.7999999999997,Exterior Wash in CB-2 - 1.4h estimated
+CLN-20250120-CR103-5bd7,CR103,2025-01-20,Window_Polish,CB-3,Window_Team_1,2.2,Medium,Delayed,23:28,5,100.0,5020.400000000001,Window Polish in CB-3 - 2.2h estimated
+CLN-20250120-CR104-2d05,CR104,2025-01-20,Window_Polish,CB-1,Window_Team_1,2.9,High,Delayed,23:35,8,100.0,5385.3,Window Polish in CB-1 - 2.9h estimated
+CLN-20250120-CR105-bbe5,CR105,2025-01-20,Window_Polish,CB-2,Window_Team_1,2.8,Low,Scheduled,23:03,4,100.0,4863.599999999999,Window Polish in CB-2 - 2.8h estimated
+CLN-20250120-CR106-3e86,CR106,2025-01-20,Window_Polish,CB-3,Window_Team_2,2.8,Medium,Delayed,23:54,6,100.0,5362.0,Window Polish in CB-3 - 2.8h estimated
+CLN-20250120-CR107-7e29,CR107,2025-01-20,Exterior_Wash,CB-1,Exterior_Team_1,1.6,Low,Scheduled,24:08,3,100.0,2817.6000000000004,Exterior Wash in CB-1 - 1.6h estimated
+CLN-20250120-CR108-2d63,CR108,2025-01-20,Window_Polish,CB-2,Window_Team_2,2.6,Medium,Delayed,24:21,6,100.0,4583.8,Window Polish in CB-2 - 2.6h estimated
+CLN-20250120-CR109-e8c3,CR109,2025-01-20,Window_Polish,CB-3,Window_Team_1,2.8,Low,Scheduled,24:14,4,100.0,5829.599999999999,Window Polish in CB-3 - 2.8h estimated
+CLN-20250120-CR110-ee5f,CR110,2025-01-20,Window_Polish,CB-1,Window_Team_1,1.7,Low,Scheduled,23:10,1,100.0,3622.7,Window Polish in CB-1 - 1.7h estimated
+CLN-20250120-CR111-149b,CR111,2025-01-20,Window_Polish,CB-2,Window_Team_2,2.4,Low,Delayed,24:05,3,100.0,4747.2,Window Polish in CB-2 - 2.4h estimated
+CLN-20250120-CR112-1f2c,CR112,2025-01-20,Exterior_Wash,CB-3,Exterior_Team_2,1.9,High,Delayed,24:20,10,100.0,3712.6,Exterior Wash in CB-3 - 1.9h estimated
+CLN-20250120-CR113-c41c,CR113,2025-01-20,Window_Polish,CB-1,Window_Team_1,2.5,Medium,Scheduled,24:45,6,100.0,3942.5,Window Polish in CB-1 - 2.5h estimated
+CLN-20250120-CR114-5f1c,CR114,2025-01-20,Window_Polish,CB-2,Window_Team_2,2.7,High,Delayed,24:51,10,100.0,6747.3,Window Polish in CB-2 - 2.7h estimated
+CLN-20250120-CR115-24a9,CR115,2025-01-20,Interior_Deep_Clean,CB-3,Interior_Team_2,5.6,Low,Delayed,24:07,3,100.0,10662.4,Interior Deep Clean in CB-3 - 5.6h estimated
+CLN-20250120-CR116-04e1,CR116,2025-01-20,Window_Polish,CB-1,Window_Team_1,2.2,Low,Delayed,23:17,2,100.0,4430.8,Window Polish in CB-1 - 2.2h estimated
+CLN-20250120-CR117-b082,CR117,2025-01-20,Window_Polish,CB-2,Window_Team_2,2.2,Medium,Delayed,23:23,5,100.0,4294.400000000001,Window Polish in CB-2 - 2.2h estimated
+CLN-20250120-CR118-9671,CR118,2025-01-20,Interior_Deep_Clean,CB-3,Interior_Team_3,4.5,Medium,Scheduled,24:31,6,100.0,9175.5,Interior Deep Clean in CB-3 - 4.5h estimated
+CLN-20250121-CR101-bb05,CR101,2025-01-21,Exterior_Wash,CB-1,Exterior_Team_1,1.6,High,Scheduled,23:33,9,100.0,3558.4,Exterior Wash in CB-1 - 1.6h estimated
+CLN-20250121-CR102-72be,CR102,2025-01-21,Window_Polish,CB-2,Window_Team_1,2.3,High,Scheduled,24:05,8,100.0,5016.299999999999,Window Polish in CB-2 - 2.3h estimated
+CLN-20250121-CR103-0c12,CR103,2025-01-21,Exterior_Wash,CB-3,Exterior_Team_2,2.0,Low,Delayed,24:56,1,100.0,3992.0,Exterior Wash in CB-3 - 2.0h estimated
+CLN-20250121-CR104-dd29,CR104,2025-01-21,Interior_Deep_Clean,CB-1,Interior_Team_3,3.7,Low,Scheduled,24:50,3,100.0,9057.6,Interior Deep Clean in CB-1 - 3.7h estimated
+CLN-20250121-CR105-3d00,CR105,2025-01-21,Window_Polish,CB-2,Window_Team_1,2.7,Low,Scheduled,23:26,4,100.0,4854.6,Window Polish in CB-2 - 2.7h estimated
+CLN-20250121-CR106-6c49,CR106,2025-01-21,Exterior_Wash,CB-3,Exterior_Team_1,1.4,High,Scheduled,24:50,8,100.0,2835.0,Exterior Wash in CB-3 - 1.4h estimated
+CLN-20250121-CR107-bc56,CR107,2025-01-21,Exterior_Wash,CB-1,Exterior_Team_2,1.1,High,Delayed,23:37,9,100.0,2074.6000000000004,Exterior Wash in CB-1 - 1.1h estimated
+CLN-20250121-CR108-c679,CR108,2025-01-21,Window_Polish,CB-2,Window_Team_2,2.4,Low,Delayed,24:54,2,100.0,4310.4,Window Polish in CB-2 - 2.4h estimated
+CLN-20250121-CR109-e2b5,CR109,2025-01-21,Window_Polish,CB-3,Window_Team_1,2.4,Low,Delayed,23:37,2,100.0,3782.3999999999996,Window Polish in CB-3 - 2.4h estimated
+CLN-20250121-CR110-43b3,CR110,2025-01-21,Interior_Deep_Clean,CB-1,Interior_Team_3,4.5,Low,Delayed,24:36,3,100.0,9657.0,Interior Deep Clean in CB-1 - 4.5h estimated
+CLN-20250121-CR111-7e70,CR111,2025-01-21,HVAC_Filter,CB-2,HVAC_Specialist_1,3.8,Low,Delayed,23:01,3,100.0,9044.0,HVAC Filter in CB-2 - 3.8h estimated
+CLN-20250121-CR112-ba87,CR112,2025-01-21,Window_Polish,CB-3,Window_Team_2,2.5,Medium,Scheduled,23:51,7,100.0,4390.0,Window Polish in CB-3 - 2.5h estimated
+CLN-20250121-CR113-97a3,CR113,2025-01-21,Window_Polish,CB-1,Window_Team_1,2.3,High,Delayed,23:29,10,100.0,5000.2,Window Polish in CB-1 - 2.3h estimated
+CLN-20250121-CR114-0370,CR114,2025-01-21,Exterior_Wash,CB-2,Exterior_Team_1,1.0,High,Delayed,24:09,10,100.0,1932.0,Exterior Wash in CB-2 - 1.0h estimated
+CLN-20250121-CR115-a04a,CR115,2025-01-21,HVAC_Filter,CB-3,HVAC_Specialist_1,3.4,Medium,Scheduled,23:24,6,100.0,6004.4,HVAC Filter in CB-3 - 3.4h estimated
+CLN-20250121-CR116-9190,CR116,2025-01-21,Window_Polish,CB-1,Window_Team_1,2.8,Low,Delayed,24:14,1,100.0,4384.799999999999,Window Polish in CB-1 - 2.8h estimated
+CLN-20250121-CR117-3c0d,CR117,2025-01-21,Exterior_Wash,CB-2,Exterior_Team_2,1.5,High,Delayed,24:33,10,100.0,3369.0,Exterior Wash in CB-2 - 1.5h estimated
+CLN-20250121-CR118-6624,CR118,2025-01-21,Interior_Deep_Clean,CB-3,Interior_Team_1,4.4,Medium,Scheduled,23:30,7,100.0,6872.8,Interior Deep Clean in CB-3 - 4.4h estimated
+CLN-20250122-CR101-bf2f,CR101,2025-01-22,Window_Polish,CB-1,Window_Team_2,2.6,Low,Scheduled,23:56,4,100.0,4027.4,Window Polish in CB-1 - 2.6h estimated
+CLN-20250122-CR102-803f,CR102,2025-01-22,Window_Polish,CB-2,Window_Team_2,2.4,High,Delayed,24:13,9,100.0,5709.599999999999,Window Polish in CB-2 - 2.4h estimated
+CLN-20250122-CR103-2441,CR103,2025-01-22,Exterior_Wash,CB-3,Exterior_Team_1,1.6,Low,Scheduled,24:52,2,100.0,3779.2000000000003,Exterior Wash in CB-3 - 1.6h estimated
+CLN-20250122-CR104-3496,CR104,2025-01-22,Interior_Deep_Clean,CB-1,Interior_Team_1,4.8,Low,Scheduled,23:54,4,100.0,9523.199999999999,Interior Deep Clean in CB-1 - 4.8h estimated
+CLN-20250122-CR105-c694,CR105,2025-01-22,Exterior_Wash,CB-2,Exterior_Team_1,1.3,Medium,Scheduled,24:57,5,100.0,2676.7000000000003,Exterior Wash in CB-2 - 1.3h estimated
+CLN-20250122-CR106-e08c,CR106,2025-01-22,Exterior_Wash,CB-3,Exterior_Team_2,1.7,High,Scheduled,23:21,9,100.0,4020.5,Exterior Wash in CB-3 - 1.7h estimated
+CLN-20250122-CR107-d44d,CR107,2025-01-22,Window_Polish,CB-1,Window_Team_1,1.7,High,Delayed,23:59,8,100.0,3478.2,Window Polish in CB-1 - 1.7h estimated
+CLN-20250122-CR108-a8ce,CR108,2025-01-22,Window_Polish,CB-2,Window_Team_1,2.2,High,Delayed,23:57,10,100.0,3731.2000000000003,Window Polish in CB-2 - 2.2h estimated
+CLN-20250122-CR109-b1f8,CR109,2025-01-22,Window_Polish,CB-3,Window_Team_2,2.3,Medium,Delayed,23:19,7,100.0,3903.1,Window Polish in CB-3 - 2.3h estimated
+CLN-20250122-CR110-e65e,CR110,2025-01-22,Window_Polish,CB-1,Window_Team_2,2.4,Low,Delayed,24:51,3,100.0,4776.0,Window Polish in CB-1 - 2.4h estimated
+CLN-20250122-CR111-39d0,CR111,2025-01-22,Interior_Deep_Clean,CB-2,Interior_Team_3,4.9,Medium,Delayed,24:39,5,100.0,10437.0,Interior Deep Clean in CB-2 - 4.9h estimated
+CLN-20250122-CR112-d21e,CR112,2025-01-22,Exterior_Wash,CB-3,Exterior_Team_1,1.3,High,Delayed,23:30,10,100.0,1998.1000000000001,Exterior Wash in CB-3 - 1.3h estimated
+CLN-20250122-CR113-0056,CR113,2025-01-22,Window_Polish,CB-1,Window_Team_2,2.5,Low,Delayed,23:05,2,100.0,5807.5,Window Polish in CB-1 - 2.5h estimated
+CLN-20250122-CR114-13fe,CR114,2025-01-22,Window_Polish,CB-2,Window_Team_1,2.3,Low,Delayed,24:17,3,100.0,5359.0,Window Polish in CB-2 - 2.3h estimated
+CLN-20250122-CR115-9b1e,CR115,2025-01-22,Interior_Deep_Clean,CB-3,Interior_Team_2,4.9,Medium,Delayed,23:20,5,100.0,10182.2,Interior Deep Clean in CB-3 - 4.9h estimated
+CLN-20250122-CR116-c4af,CR116,2025-01-22,Exterior_Wash,CB-1,Exterior_Team_2,1.7,Medium,Scheduled,23:41,6,100.0,4224.5,Exterior Wash in CB-1 - 1.7h estimated
+CLN-20250122-CR117-0f53,CR117,2025-01-22,Interior_Deep_Clean,CB-2,Interior_Team_1,3.9,Low,Delayed,23:01,2,100.0,9590.1,Interior Deep Clean in CB-2 - 3.9h estimated
+CLN-20250122-CR118-8ada,CR118,2025-01-22,Interior_Deep_Clean,CB-3,Interior_Team_1,3.8,Medium,Scheduled,23:05,5,100.0,9021.199999999999,Interior Deep Clean in CB-3 - 3.8h estimated
+CLN-20250123-CR101-a4b2,CR101,2025-01-23,Window_Polish,CB-1,Window_Team_2,2.0,Low,Scheduled,23:13,1,100.0,3342.0,Window Polish in CB-1 - 2.0h estimated
+CLN-20250123-CR102-4c01,CR102,2025-01-23,Exterior_Wash,CB-2,Exterior_Team_2,1.6,Low,Scheduled,24:31,4,100.0,3875.2000000000003,Exterior Wash in CB-2 - 1.6h estimated
+CLN-20250123-CR103-6ff8,CR103,2025-01-23,Exterior_Wash,CB-3,Exterior_Team_1,1.5,Low,Scheduled,24:14,2,100.0,3157.5,Exterior Wash in CB-3 - 1.5h estimated
+CLN-20250123-CR104-84ad,CR104,2025-01-23,Interior_Deep_Clean,CB-1,Interior_Team_1,5.9,Medium,Scheduled,24:59,7,100.0,10484.300000000001,Interior Deep Clean in CB-1 - 5.9h estimated
+CLN-20250123-CR105-f006,CR105,2025-01-23,Window_Polish,CB-2,Window_Team_1,2.7,Medium,Delayed,23:58,7,100.0,6690.6,Window Polish in CB-2 - 2.7h estimated
+CLN-20250123-CR106-9fce,CR106,2025-01-23,Window_Polish,CB-3,Window_Team_2,3.0,High,Delayed,24:51,9,100.0,4524.0,Window Polish in CB-3 - 3.0h estimated
+CLN-20250123-CR107-3c64,CR107,2025-01-23,Exterior_Wash,CB-1,Exterior_Team_2,1.3,Medium,Scheduled,23:02,5,100.0,2616.9,Exterior Wash in CB-1 - 1.3h estimated
+CLN-20250123-CR108-278e,CR108,2025-01-23,Exterior_Wash,CB-2,Exterior_Team_1,1.3,Medium,Delayed,23:45,5,100.0,2696.2000000000003,Exterior Wash in CB-2 - 1.3h estimated
+CLN-20250123-CR109-d457,CR109,2025-01-23,Exterior_Wash,CB-3,Exterior_Team_1,1.5,Medium,Delayed,24:47,5,100.0,3010.5,Exterior Wash in CB-3 - 1.5h estimated
+CLN-20250123-CR110-9110,CR110,2025-01-23,Window_Polish,CB-1,Window_Team_2,1.6,Low,Delayed,23:03,1,100.0,3115.2000000000003,Window Polish in CB-1 - 1.6h estimated
+CLN-20250123-CR111-29d1,CR111,2025-01-23,Window_Polish,CB-2,Window_Team_2,2.9,Low,Delayed,24:08,3,100.0,6835.3,Window Polish in CB-2 - 2.9h estimated
+CLN-20250123-CR112-4805,CR112,2025-01-23,Exterior_Wash,CB-3,Exterior_Team_1,1.3,High,Scheduled,23:47,10,100.0,3078.4,Exterior Wash in CB-3 - 1.3h estimated
+CLN-20250123-CR113-3764,CR113,2025-01-23,Exterior_Wash,CB-1,Exterior_Team_2,1.4,Low,Delayed,24:09,3,100.0,3095.3999999999996,Exterior Wash in CB-1 - 1.4h estimated
+CLN-20250123-CR114-115a,CR114,2025-01-23,Exterior_Wash,CB-2,Exterior_Team_2,1.8,Low,Delayed,23:53,3,100.0,3171.6,Exterior Wash in CB-2 - 1.8h estimated
+CLN-20250123-CR115-6cea,CR115,2025-01-23,Exterior_Wash,CB-3,Exterior_Team_2,1.8,Low,Delayed,23:45,2,100.0,3319.2000000000003,Exterior Wash in CB-3 - 1.8h estimated
+CLN-20250123-CR116-89c3,CR116,2025-01-23,Window_Polish,CB-1,Window_Team_1,1.9,High,Delayed,24:10,9,100.0,3480.7999999999997,Window Polish in CB-1 - 1.9h estimated
+CLN-20250123-CR117-c9b0,CR117,2025-01-23,Interior_Deep_Clean,CB-2,Interior_Team_2,3.6,Low,Delayed,23:21,3,100.0,8582.4,Interior Deep Clean in CB-2 - 3.6h estimated
+CLN-20250123-CR118-3262,CR118,2025-01-23,Interior_Deep_Clean,CB-3,Interior_Team_1,4.8,Low,Delayed,24:55,1,100.0,10190.4,Interior Deep Clean in CB-3 - 4.8h estimated
+CLN-20250124-CR101-7e5d,CR101,2025-01-24,Exterior_Wash,CB-1,Exterior_Team_2,1.3,Medium,Delayed,23:47,6,100.0,2211.3,Exterior Wash in CB-1 - 1.3h estimated
+CLN-20250124-CR102-9d01,CR102,2025-01-24,Exterior_Wash,CB-2,Exterior_Team_2,1.1,High,Scheduled,24:17,8,100.0,2153.8,Exterior Wash in CB-2 - 1.1h estimated
+CLN-20250124-CR103-23fc,CR103,2025-01-24,HVAC_Filter,CB-3,HVAC_Specialist_1,3.5,High,Scheduled,24:05,9,100.0,6839.0,HVAC Filter in CB-3 - 3.5h estimated
+CLN-20250124-CR104-c79b,CR104,2025-01-24,Interior_Deep_Clean,CB-1,Interior_Team_3,4.9,High,Delayed,23:28,9,100.0,8506.400000000001,Interior Deep Clean in CB-1 - 4.9h estimated
+CLN-20250124-CR105-42bb,CR105,2025-01-24,Interior_Deep_Clean,CB-2,Interior_Team_3,3.5,High,Delayed,24:54,9,100.0,5446.0,Interior Deep Clean in CB-2 - 3.5h estimated
+CLN-20250124-CR106-a4bc,CR106,2025-01-24,Interior_Deep_Clean,CB-3,Interior_Team_3,5.9,Low,Scheduled,23:50,3,100.0,8962.1,Interior Deep Clean in CB-3 - 5.9h estimated
+CLN-20250124-CR107-178d,CR107,2025-01-24,Window_Polish,CB-1,Window_Team_1,1.8,Low,Delayed,24:30,3,100.0,4021.2000000000003,Window Polish in CB-1 - 1.8h estimated
+CLN-20250124-CR108-9a1e,CR108,2025-01-24,Window_Polish,CB-2,Window_Team_2,2.7,Low,Scheduled,23:28,1,100.0,6588.0,Window Polish in CB-2 - 2.7h estimated
+CLN-20250124-CR109-bea7,CR109,2025-01-24,Window_Polish,CB-3,Window_Team_2,1.9,High,Scheduled,23:56,9,100.0,4725.3,Window Polish in CB-3 - 1.9h estimated
+CLN-20250124-CR110-2a85,CR110,2025-01-24,Interior_Deep_Clean,CB-1,Interior_Team_1,5.9,Low,Scheduled,24:22,3,100.0,8938.5,Interior Deep Clean in CB-1 - 5.9h estimated
+CLN-20250124-CR111-6111,CR111,2025-01-24,HVAC_Filter,CB-2,HVAC_Specialist_1,2.6,High,Delayed,23:39,8,100.0,6323.2,HVAC Filter in CB-2 - 2.6h estimated
+CLN-20250124-CR112-86a8,CR112,2025-01-24,Window_Polish,CB-3,Window_Team_1,2.3,Medium,Scheduled,23:45,6,100.0,5221.0,Window Polish in CB-3 - 2.3h estimated
+CLN-20250124-CR113-fa0b,CR113,2025-01-24,Window_Polish,CB-1,Window_Team_1,2.0,Low,Delayed,24:51,4,100.0,3944.0,Window Polish in CB-1 - 2.0h estimated
+CLN-20250124-CR114-be42,CR114,2025-01-24,Window_Polish,CB-2,Window_Team_2,2.4,High,Delayed,24:01,8,100.0,3856.7999999999997,Window Polish in CB-2 - 2.4h estimated
+CLN-20250124-CR115-527c,CR115,2025-01-24,Window_Polish,CB-3,Window_Team_2,2.1,Medium,Delayed,24:17,7,100.0,3788.4,Window Polish in CB-3 - 2.1h estimated
+CLN-20250124-CR116-2781,CR116,2025-01-24,Exterior_Wash,CB-1,Exterior_Team_2,1.9,Medium,Scheduled,23:00,7,100.0,4428.9,Exterior Wash in CB-1 - 1.9h estimated
+CLN-20250124-CR117-1daa,CR117,2025-01-24,Exterior_Wash,CB-2,Exterior_Team_1,1.8,High,Scheduled,24:55,9,100.0,3722.4,Exterior Wash in CB-2 - 1.8h estimated
+CLN-20250124-CR118-9bc5,CR118,2025-01-24,Exterior_Wash,CB-3,Exterior_Team_2,1.8,Low,Scheduled,24:50,4,100.0,3898.8,Exterior Wash in CB-3 - 1.8h estimated
+CLN-20250125-CR101-d435,CR101,2025-01-25,Window_Polish,CB-1,Window_Team_2,2.9,Medium,Scheduled,24:03,5,100.0,4828.5,Window Polish in CB-1 - 2.9h estimated
+CLN-20250125-CR102-2c06,CR102,2025-01-25,Exterior_Wash,CB-2,Exterior_Team_1,1.1,Medium,Delayed,24:20,6,100.0,1735.8000000000002,Exterior Wash in CB-2 - 1.1h estimated
+CLN-20250125-CR103-444a,CR103,2025-01-25,Interior_Deep_Clean,CB-3,Interior_Team_2,4.2,Medium,Delayed,23:06,6,100.0,8248.800000000001,Interior Deep Clean in CB-3 - 4.2h estimated
+CLN-20250125-CR104-24ad,CR104,2025-01-25,Window_Polish,CB-1,Window_Team_2,2.4,Medium,Delayed,23:12,7,100.0,4034.3999999999996,Window Polish in CB-1 - 2.4h estimated
+CLN-20250125-CR105-9a04,CR105,2025-01-25,Exterior_Wash,CB-2,Exterior_Team_2,1.7,Low,Delayed,24:45,2,100.0,2708.1,Exterior Wash in CB-2 - 1.7h estimated
+CLN-20250125-CR106-b2b4,CR106,2025-01-25,Exterior_Wash,CB-3,Exterior_Team_2,1.9,High,Scheduled,23:38,8,100.0,3496.0,Exterior Wash in CB-3 - 1.9h estimated
+CLN-20250125-CR107-02e3,CR107,2025-01-25,Exterior_Wash,CB-1,Exterior_Team_1,1.8,Medium,Scheduled,24:31,7,100.0,3531.6,Exterior Wash in CB-1 - 1.8h estimated
+CLN-20250125-CR108-ec74,CR108,2025-01-25,Window_Polish,CB-2,Window_Team_1,2.8,Medium,Delayed,23:47,7,100.0,4379.2,Window Polish in CB-2 - 2.8h estimated
+CLN-20250125-CR109-36d2,CR109,2025-01-25,Exterior_Wash,CB-3,Exterior_Team_2,1.2,Low,Delayed,23:12,1,100.0,1962.0,Exterior Wash in CB-3 - 1.2h estimated
+CLN-20250125-CR110-7739,CR110,2025-01-25,Exterior_Wash,CB-1,Exterior_Team_1,1.2,Medium,Scheduled,24:21,6,100.0,2720.4,Exterior Wash in CB-1 - 1.2h estimated
+CLN-20250125-CR111-0fd4,CR111,2025-01-25,Interior_Deep_Clean,CB-2,Interior_Team_2,5.3,Low,Scheduled,24:35,2,100.0,8448.199999999999,Interior Deep Clean in CB-2 - 5.3h estimated
+CLN-20250125-CR112-c419,CR112,2025-01-25,Exterior_Wash,CB-3,Exterior_Team_2,1.8,High,Scheduled,24:56,8,100.0,3956.4,Exterior Wash in CB-3 - 1.8h estimated
+CLN-20250125-CR113-6844,CR113,2025-01-25,Interior_Deep_Clean,CB-1,Interior_Team_2,5.4,High,Scheduled,24:39,10,100.0,12133.800000000001,Interior Deep Clean in CB-1 - 5.4h estimated
+CLN-20250125-CR114-e53f,CR114,2025-01-25,Window_Polish,CB-2,Window_Team_2,1.9,High,Scheduled,23:44,10,100.0,4672.099999999999,Window Polish in CB-2 - 1.9h estimated
+CLN-20250125-CR115-19f6,CR115,2025-01-25,Window_Polish,CB-3,Window_Team_1,1.8,Low,Scheduled,24:32,2,100.0,3546.0,Window Polish in CB-3 - 1.8h estimated
+CLN-20250125-CR116-3e02,CR116,2025-01-25,Window_Polish,CB-1,Window_Team_1,2.2,Low,Delayed,24:23,2,100.0,3825.8,Window Polish in CB-1 - 2.2h estimated
+CLN-20250125-CR117-6d48,CR117,2025-01-25,Exterior_Wash,CB-2,Exterior_Team_1,1.6,High,Delayed,23:14,9,100.0,3864.0,Exterior Wash in CB-2 - 1.6h estimated
+CLN-20250125-CR118-c421,CR118,2025-01-25,Interior_Deep_Clean,CB-3,Interior_Team_2,5.6,Medium,Delayed,23:39,6,100.0,13692.0,Interior Deep Clean in CB-3 - 5.6h estimated
+CLN-20250126-CR101-2370,CR101,2025-01-26,Interior_Deep_Clean,CB-1,Interior_Team_3,4.0,Low,Delayed,24:34,2,100.0,9296.0,Interior Deep Clean in CB-1 - 4.0h estimated
+CLN-20250126-CR102-f14a,CR102,2025-01-26,Window_Polish,CB-2,Window_Team_1,3.0,Low,Delayed,23:01,2,100.0,6840.0,Window Polish in CB-2 - 3.0h estimated
+CLN-20250126-CR103-7851,CR103,2025-01-26,Exterior_Wash,CB-3,Exterior_Team_2,1.1,High,Delayed,24:27,8,100.0,2438.7000000000003,Exterior Wash in CB-3 - 1.1h estimated
+CLN-20250126-CR104-c31c,CR104,2025-01-26,Window_Polish,CB-1,Window_Team_2,1.8,Low,Delayed,23:49,4,100.0,4458.6,Window Polish in CB-1 - 1.8h estimated
+CLN-20250126-CR105-4444,CR105,2025-01-26,Exterior_Wash,CB-2,Exterior_Team_2,1.4,High,Scheduled,24:05,10,100.0,3208.7999999999997,Exterior Wash in CB-2 - 1.4h estimated
+CLN-20250126-CR106-e16e,CR106,2025-01-26,Window_Polish,CB-3,Window_Team_2,1.6,High,Delayed,23:24,9,100.0,3705.6000000000004,Window Polish in CB-3 - 1.6h estimated
+CLN-20250126-CR107-96f0,CR107,2025-01-26,Window_Polish,CB-1,Window_Team_2,1.9,Low,Delayed,24:53,1,100.0,4732.9,Window Polish in CB-1 - 1.9h estimated
+CLN-20250126-CR108-bbd2,CR108,2025-01-26,Window_Polish,CB-2,Window_Team_1,2.3,Medium,Scheduled,23:51,6,100.0,4788.599999999999,Window Polish in CB-2 - 2.3h estimated
+CLN-20250126-CR109-49b0,CR109,2025-01-26,Window_Polish,CB-3,Window_Team_1,2.2,High,Delayed,23:30,10,100.0,5493.400000000001,Window Polish in CB-3 - 2.2h estimated
+CLN-20250126-CR110-fc8c,CR110,2025-01-26,Interior_Deep_Clean,CB-1,Interior_Team_1,5.7,Low,Scheduled,24:35,2,100.0,10602.0,Interior Deep Clean in CB-1 - 5.7h estimated
+CLN-20250126-CR111-0f86,CR111,2025-01-26,Window_Polish,CB-2,Window_Team_1,2.5,Low,Scheduled,23:58,4,100.0,4380.0,Window Polish in CB-2 - 2.5h estimated
+CLN-20250126-CR112-5164,CR112,2025-01-26,Window_Polish,CB-3,Window_Team_2,1.9,High,Scheduled,23:36,8,100.0,3915.8999999999996,Window Polish in CB-3 - 1.9h estimated
+CLN-20250126-CR113-8424,CR113,2025-01-26,Exterior_Wash,CB-1,Exterior_Team_2,1.6,High,Scheduled,24:43,8,100.0,3873.6000000000004,Exterior Wash in CB-1 - 1.6h estimated
+CLN-20250126-CR114-6a03,CR114,2025-01-26,Window_Polish,CB-2,Window_Team_1,1.9,High,Delayed,24:37,10,100.0,3095.1,Window Polish in CB-2 - 1.9h estimated
+CLN-20250126-CR115-755a,CR115,2025-01-26,Exterior_Wash,CB-3,Exterior_Team_2,1.9,Medium,Delayed,23:42,6,100.0,4138.2,Exterior Wash in CB-3 - 1.9h estimated
+CLN-20250126-CR116-b6f5,CR116,2025-01-26,Window_Polish,CB-1,Window_Team_2,2.8,Medium,Delayed,24:43,7,100.0,6227.2,Window Polish in CB-1 - 2.8h estimated
+CLN-20250126-CR117-4ab4,CR117,2025-01-26,Window_Polish,CB-2,Window_Team_1,2.8,High,Scheduled,23:15,8,100.0,5656.0,Window Polish in CB-2 - 2.8h estimated
+CLN-20250126-CR118-6b88,CR118,2025-01-26,Window_Polish,CB-3,Window_Team_2,2.3,Low,Delayed,23:05,2,100.0,5543.0,Window Polish in CB-3 - 2.3h estimated

@@ -1,0 +1,26 @@
+Train_ID,Current_Bay,Current_Bay_Type,Tomorrow_Assignment,Optimal_Bay_Type,Accessibility_Score,Exit_Time_Minutes,Shunting_Moves_Required,Shunting_Time_Minutes,Energy_Cost_INR,Needs_Reallocation,Reallocation_Priority,Track_Utilization_Pct,Safety_Clearance_Minutes,Last_Movement_Time,Notes
+CR101,SR-3,Service_Ready,Service,Service_Ready,5,5,0,0,0.0,False,Low,81.3,5,22:20,Currently in SR-3 (Service_Ready) - Tomorrow: Service
+CR102,SB-3,Standby,Standby,Standby,3,16,2,24,150.0,False,Low,89.3,4,23:41,Currently in SB-3 (Standby) - Tomorrow: Standby
+CR103,IBL-5,IBL_Maintenance,Maintenance,IBL_Maintenance,5,18,0,0,0.0,False,Low,83.5,4,22:14,Currently in IBL-5 (IBL_Maintenance) - Tomorrow: Maintenance
+CR104,CB-1,Cleaning_Bays,Standby,Standby,4,10,0,0,0.0,True,Medium,84.4,5,22:41,Currently in CB-1 (Cleaning_Bays) - Tomorrow: Standby
+CR105,SR-10,Service_Ready,Service,Service_Ready,5,10,0,0,0.0,False,Low,80.4,4,23:41,Currently in SR-10 (Service_Ready) - Tomorrow: Service
+CR106,SB-1,Standby,Standby,Standby,3,21,2,22,138.0,False,Low,89.1,5,22:25,Currently in SB-1 (Standby) - Tomorrow: Standby
+CR107,SB-3,Standby,Standby,Standby,3,22,2,30,188.0,False,Low,75.8,4,22:10,Currently in SB-3 (Standby) - Tomorrow: Standby
+CR108,IBL-5,IBL_Maintenance,Maintenance,IBL_Maintenance,5,14,0,0,0.0,False,Low,76.7,5,22:17,Currently in IBL-5 (IBL_Maintenance) - Tomorrow: Maintenance
+CR109,SR-5,Service_Ready,Service,Service_Ready,5,7,0,0,0.0,False,Low,75.2,3,23:31,Currently in SR-5 (Service_Ready) - Tomorrow: Service
+CR110,SR-1,Service_Ready,Service,Service_Ready,5,6,0,0,0.0,False,Low,93.5,3,23:17,Currently in SR-1 (Service_Ready) - Tomorrow: Service
+CR111,CB-1,Cleaning_Bays,Standby,Standby,4,13,1,11,69.0,True,Medium,75.8,3,23:45,Currently in CB-1 (Cleaning_Bays) - Tomorrow: Standby
+CR112,SR-6,Service_Ready,Service,Service_Ready,5,7,0,0,0.0,False,Low,78.8,3,23:46,Currently in SR-6 (Service_Ready) - Tomorrow: Service
+CR113,IBL-2,IBL_Maintenance,Maintenance,IBL_Maintenance,5,16,0,0,0.0,False,Low,84.1,3,22:41,Currently in IBL-2 (IBL_Maintenance) - Tomorrow: Maintenance
+CR114,SR-10,Service_Ready,Service,Service_Ready,5,9,0,0,0.0,False,Low,78.4,3,22:20,Currently in SR-10 (Service_Ready) - Tomorrow: Service
+CR115,SR-10,Service_Ready,Service,Service_Ready,5,10,0,0,0.0,False,Low,91.5,3,22:15,Currently in SR-10 (Service_Ready) - Tomorrow: Service
+CR116,SR-6,Service_Ready,Service,Service_Ready,5,6,0,0,0.0,False,Low,82.5,4,22:43,Currently in SR-6 (Service_Ready) - Tomorrow: Service
+CR117,IBL-1,IBL_Maintenance,Maintenance,IBL_Maintenance,5,12,0,0,0.0,False,Low,75.4,5,23:19,Currently in IBL-1 (IBL_Maintenance) - Tomorrow: Maintenance
+CR118,SB-1,Standby,Standby,Standby,3,17,3,27,169.0,False,Low,75.5,4,22:16,Currently in SB-1 (Standby) - Tomorrow: Standby
+CR119,SB-3,Standby,Standby,Standby,3,18,2,24,150.0,False,Low,78.6,5,23:43,Currently in SB-3 (Standby) - Tomorrow: Standby
+CR120,SR-4,Service_Ready,Service,Service_Ready,5,9,0,0,0.0,False,Low,85.1,5,22:28,Currently in SR-4 (Service_Ready) - Tomorrow: Service
+CR121,SR-1,Service_Ready,Service,Service_Ready,5,5,0,0,0.0,False,Low,91.6,5,22:40,Currently in SR-1 (Service_Ready) - Tomorrow: Service
+CR122,IBL-4,IBL_Maintenance,Standby,Standby,5,15,0,0,0.0,True,High,91.7,4,22:35,Currently in IBL-4 (IBL_Maintenance) - Tomorrow: Standby
+CR123,SB-2,Standby,Standby,Standby,3,24,2,20,125.0,False,Low,82.8,4,23:41,Currently in SB-2 (Standby) - Tomorrow: Standby
+CR124,CB-2,Cleaning_Bays,Standby,Standby,4,13,0,0,0.0,True,Medium,80.7,5,23:37,Currently in CB-2 (Cleaning_Bays) - Tomorrow: Standby
+CR125,SB-8,Standby,Standby,Standby,3,16,2,30,188.0,False,Low,89.4,3,22:18,Currently in SB-8 (Standby) - Tomorrow: Standby

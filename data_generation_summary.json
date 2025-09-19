@@ -1,0 +1,23 @@
+{
+    "Generation_Date": "2025-09-19 15:59:19",
+    "Simulation_Period": "2025-01-15 to 2025-02-14",
+    "Decision_Date": "2025-01-20",
+    "Fleet_Size": 25,
+    "Data_Files_Generated": {
+        "fitness_certificates.csv": 75,
+        "maximo_job_cards.csv": 68,
+        "branding_priorities.csv": 28,
+        "mileage_balancing.csv": 25,
+        "cleaning_detailing_schedule.csv": 35,
+        "stabling_geometry.csv": 25,
+        "iot_telemetry_data.csv": 600
+    },
+    "Key_Statistics": {
+        "Expired_Certificates": 7,
+        "Open_Job_Cards": 12,
+        "Critical_Branding_Contracts": 0,
+        "High_Wear_Trains": 1,
+        "Cleaning_Backlog": 12,
+        "Trains_Needing_Reallocation": 20
+    }
+}

@@ -1,0 +1,35 @@
+{
+    "generation_timestamp": "2025-09-19 12:43:35",
+    "research_standards": {
+        "fitness_certificates": "Indian Railways Act 1989, RDSO Guidelines",
+        "maximo_job_cards": "DMRC Maintenance Manual 2019",
+        "branding_contracts": "KMRL Commercial Operations Manual 2020",
+        "mileage_balancing": "Alstom Metropolis Technical Manual",
+        "cleaning_schedule": "Metro Rail Cleaning Standards",
+        "stabling_geometry": "RDSO Depot Design Guidelines",
+        "iot_telemetry": "Alstom Sensor Specifications"
+    },
+    "data_accuracy": {
+        "certificate_validity": "12 months (Rolling Stock), 6 months (Signaling), 3 months (Telecom)",
+        "component_life": "800K+ km bogies, 65K km brake pads, 18K hours HVAC",
+        "service_hours": "17.5 hours/day KMRL standard",
+        "maintenance_response": "4-6 hours (Critical), 24 hours (High)",
+        "cleaning_frequency": "3-7 days interior, 2-3 days exterior"
+    },
+    "fleet_parameters": {
+        "total_trainsets": 25,
+        "daily_average_km": 450,
+        "annual_km_per_train": "150K-200K km",
+        "service_availability": "17.5 hours (5:30 AM - 11:00 PM)"
+    },
+    "data_files": {
+        "research_fitness_certificates.csv": 75,
+        "research_maximo_job_cards.csv": 43,
+        "research_branding_priorities.csv": 28,
+        "research_mileage_balancing.csv": 25,
+        "research_cleaning_schedule.csv": 126,
+        "research_stabling_geometry.csv": 25,
+        "research_iot_telemetry.csv": 600,
+        "total_records": 922
+    }
+}

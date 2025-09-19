@@ -1,0 +1,26 @@
+Train_ID,Current_Track_ID,Current_Track_Type,Track_Capacity_Cars,Distance_To_Mainline_M,Path_To_Mainline,Switches_Required,Shunting_Time_Minutes,Energy_Cost_INR,Tomorrow_Status,Needs_Reallocation,Reallocation_Priority,Track_Status,Connected_Switches,Accessibility_Score,Notes
+CR101,SL-04,Stabling Line,6,220,"['SL-04', 'SW-B', 'MAINLINE_IN']",1,7,490,Service,True,Medium,OPERATIONAL,['SW-B'],4,Real depot track SL-04 with 1 switch movements
+CR102,SL-03,Stabling Line,6,220,"['SL-03', 'SW-B', 'MAINLINE_IN']",1,7,490,Service,True,Medium,OPERATIONAL,['SW-B'],4,Real depot track SL-03 with 1 switch movements
+CR103,SL-09,Stabling Line,6,500,No path,0,30,1000,Service,True,High,OPERATIONAL,['SW-E'],5,Real depot track SL-09 with 0 switch movements
+CR104,SL-14,Stabling Line,6,500,No path,0,30,1000,Maintenance,True,High,OPERATIONAL,['SW-G'],5,Real depot track SL-14 with 0 switch movements
+CR105,SL-01,Stabling Line,6,200,"['SL-01', 'SW-A', 'MAINLINE_IN']",1,7,450,Standby,False,Low,OPERATIONAL,['SW-A'],4,Real depot track SL-01 with 1 switch movements
+CR106,SL-10,Stabling Line,6,500,No path,0,30,1000,Service,True,High,OPERATIONAL,['SW-E'],5,Real depot track SL-10 with 0 switch movements
+CR107,SL-06,Stabling Line,6,300,"['SL-06', 'SW-C', 'YARD_LINE_1', 'SW-LINK-1', 'MAINLINE_IN']",2,12,700,Standby,False,Low,OPERATIONAL,['SW-C'],3,Real depot track SL-06 with 2 switch movements
+CR108,SL-12,Stabling Line,6,500,No path,0,30,1000,Standby,False,High,OPERATIONAL,['SW-F'],5,Real depot track SL-12 with 0 switch movements
+CR109,SL-13,Stabling Line,6,500,No path,0,30,1000,Service,True,High,OPERATIONAL,['SW-G'],5,Real depot track SL-13 with 0 switch movements
+CR110,SL-11,Stabling Line,6,500,No path,0,30,1000,Cleaning,True,High,OPERATIONAL,['SW-F'],5,Real depot track SL-11 with 0 switch movements
+CR111,SL-08,Stabling Line,6,320,"['SL-08', 'SW-D', 'YARD_LINE_1', 'SW-LINK-1', 'MAINLINE_IN']",2,12,740,Maintenance,True,Medium,OPERATIONAL,['SW-D'],3,Real depot track SL-08 with 2 switch movements
+CR112,SL-02,Stabling Line,6,200,"['SL-02', 'SW-A', 'MAINLINE_IN']",1,7,450,Standby,False,Low,OPERATIONAL,['SW-A'],4,Real depot track SL-02 with 1 switch movements
+CR113,SL-05,Stabling Line,6,300,"['SL-05', 'SW-C', 'YARD_LINE_1', 'SW-LINK-1', 'MAINLINE_IN']",2,12,700,Standby,False,Low,OPERATIONAL,['SW-C'],3,Real depot track SL-05 with 2 switch movements
+CR114,SL-07,Stabling Line,6,320,"['SL-07', 'SW-D', 'YARD_LINE_1', 'SW-LINK-1', 'MAINLINE_IN']",2,12,740,Maintenance,True,Medium,OPERATIONAL,['SW-D'],3,Real depot track SL-07 with 2 switch movements
+CR115,OVERFLOW,Temporary,0,1000,Requires special handling,5,45,2000,Standby,True,Critical,OVERFLOW,[],1,Overflow train CR115 - requires immediate reallocation
+CR116,OVERFLOW,Temporary,0,1000,Requires special handling,5,45,2000,Standby,True,Critical,OVERFLOW,[],1,Overflow train CR116 - requires immediate reallocation
+CR117,OVERFLOW,Temporary,0,1000,Requires special handling,5,45,2000,Standby,True,Critical,OVERFLOW,[],1,Overflow train CR117 - requires immediate reallocation
+CR118,OVERFLOW,Temporary,0,1000,Requires special handling,5,45,2000,Standby,True,Critical,OVERFLOW,[],1,Overflow train CR118 - requires immediate reallocation
+CR119,OVERFLOW,Temporary,0,1000,Requires special handling,5,45,2000,Standby,True,Critical,OVERFLOW,[],1,Overflow train CR119 - requires immediate reallocation
+CR120,OVERFLOW,Temporary,0,1000,Requires special handling,5,45,2000,Standby,True,Critical,OVERFLOW,[],1,Overflow train CR120 - requires immediate reallocation
+CR121,OVERFLOW,Temporary,0,1000,Requires special handling,5,45,2000,Standby,True,Critical,OVERFLOW,[],1,Overflow train CR121 - requires immediate reallocation
+CR122,OVERFLOW,Temporary,0,1000,Requires special handling,5,45,2000,Standby,True,Critical,OVERFLOW,[],1,Overflow train CR122 - requires immediate reallocation
+CR123,OVERFLOW,Temporary,0,1000,Requires special handling,5,45,2000,Standby,True,Critical,OVERFLOW,[],1,Overflow train CR123 - requires immediate reallocation
+CR124,OVERFLOW,Temporary,0,1000,Requires special handling,5,45,2000,Standby,True,Critical,OVERFLOW,[],1,Overflow train CR124 - requires immediate reallocation
+CR125,OVERFLOW,Temporary,0,1000,Requires special handling,5,45,2000,Standby,True,Critical,OVERFLOW,[],1,Overflow train CR125 - requires immediate reallocation
